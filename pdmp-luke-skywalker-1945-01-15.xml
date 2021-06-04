@@ -35,18 +35,18 @@
 				<Consent>N</Consent>
 			</BenefitsCoordination>
 			<MedicationDispensed>
-				<DrugDescription>MORPHINE 15 MG SOLUBLE TAB</DrugDescription>
+				<DrugDescription>MORPHINE 10 MG SOLUBLE TAB</DrugDescription>
 				<DrugCoded>
-					<ProductCode>00054023524</ProductCode>
+					<ProductCode>00002254902</ProductCode>
 					<ProductCodeQualifier>ND</ProductCodeQualifier>
 				</DrugCoded>
 				<Quantity>
-					<Value>100</Value>
+					<Value>120</Value>
 					<CodeListQualifier>87</CodeListQualifier>
 					<UnitSourceCode>AC</UnitSourceCode>
 					<PotencyUnitCode>C38046</PotencyUnitCode>
 				</Quantity>
-				<DaysSupply>50</DaysSupply>
+				<DaysSupply>30</DaysSupply>
 				<Substitutions>0</Substitutions>
 				<WrittenDate>
 					<Date>2019-10-25</Date>
@@ -199,6 +199,7 @@
 					<FillNumber>00</FillNumber>
 				</HistorySource>
 			</MedicationDispensed>
+
 
 		</RxHistoryResponse>
 	</Body>
