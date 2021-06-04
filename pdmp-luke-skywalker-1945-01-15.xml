@@ -35,13 +35,13 @@
 				<Consent>N</Consent>
 			</BenefitsCoordination>
 			<MedicationDispensed>
-				<DrugDescription>MORPHINE 10 MG SOLUBLE TAB</DrugDescription>
+				<DrugDescription>Fentanyl 1.6 MG Oral Lozenge</DrugDescription>
 				<DrugCoded>
-					<ProductCode>00002254902</ProductCode>
+					<ProductCode>00093787019</ProductCode>
 					<ProductCodeQualifier>ND</ProductCodeQualifier>
 				</DrugCoded>
 				<Quantity>
-					<Value>120</Value>
+					<Value>30</Value>
 					<CodeListQualifier>87</CodeListQualifier>
 					<UnitSourceCode>AC</UnitSourceCode>
 					<PotencyUnitCode>C38046</PotencyUnitCode>
