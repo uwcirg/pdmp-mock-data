@@ -1,18 +1,40 @@
 ﻿<!--
+pdmp-test-sky-1945-01-15.xml
+
+second test file...
+
 Expected output:  
 
 Rx #1 
-MS 15 mg oral, once daily x 30d, disp #30
-Written/filled Oct 25 2020
-Should end Nov 3 2020, I think
+Oxycodone 5 mg oral, 3x daily x 10d, disp #30
+Written/filled Oct 1 2020
+Should end Oct 11 2020, I think
+(15 mg of oxy per day = 22.5 MME per day)
+
+repeat above Nov 3
+Rx #2 
+Oxycodone 5 mg oral, 3x daily x 10d, disp #30
+Written/filled Nov 3 2020
+Should end Nov 12 2020, I think
+(15 mg of oxy per day = 22.5 MME per day)
+
+
+Rx #3 
+Vicodin 300/5 mg oral, 4x daily x 30d, disp #120
+Written/filled Nov 7 2020
+Should end Dec 6 2020, I think
+( = 22.5 MME per day)
+
+
 
 Rx #2
 MS 15 mg oral, twice daily x 45d, disp #90
 Written/filled Oct 5 2020
 Should end Dec 8 or 9, I think
 
+-- need to redo this w/ calculations -- 
 start w/ a zero baseline
-on Oct 5 go to 30
+on Oct 5 go to 22.5
 on Oct 25 go to 45
 on Nov 3 go to 30
 Dec 8 go to zero
@@ -35,8 +57,8 @@ Dec 8 go to zero
 			</Response>
 			<Patient>
 				<Name>
-					<LastName>Skywalker</LastName>
-					<FirstName>Luke</FirstName>
+					<LastName>Sky</LastName>
+					<FirstName>Test</FirstName>
 				</Name>
 				<Gender>M</Gender>
 				<DateOfBirth>
@@ -53,9 +75,9 @@ Dec 8 go to zero
 				<Consent>N</Consent>
 			</BenefitsCoordination>
 			<MedicationDispensed>
-				<DrugDescription>morphine sulfate 15 MG Oral Tablet</DrugDescription>
+				<DrugDescription>oxycodone hydrochloride 5 MG Oral Tablet</DrugDescription>
 				<DrugCoded>
-					<ProductCode>49999084830</ProductCode>
+					<ProductCode>13107005530</ProductCode>
 					<ProductCodeQualifier>ND</ProductCodeQualifier>
 				</DrugCoded>
 				<Quantity>
@@ -64,13 +86,13 @@ Dec 8 go to zero
 					<UnitSourceCode>AC</UnitSourceCode>
 					<PotencyUnitCode>C38046</PotencyUnitCode>
 				</Quantity>
-				<DaysSupply>30</DaysSupply>
+				<DaysSupply>10</DaysSupply>
 				<Substitutions>0</Substitutions>
 				<WrittenDate>
-					<Date>2019-10-25</Date>
+					<Date>2019-10-01</Date>
 				</WrittenDate>
 				<LastFillDate>
-					<Date>2019-10-25</Date>
+					<Date>2019-10-01</Date>
 				</LastFillDate>
 				<Pharmacy>
 					<Identification>
@@ -106,9 +128,62 @@ Dec 8 go to zero
 				</HistorySource>
 			</MedicationDispensed>
 			<MedicationDispensed>
-				<DrugDescription>morphine sulfate 15 MG Oral Tablet</DrugDescription>
+				<DrugDescription>oxycodone hydrochloride 5 MG Oral Tablet</DrugDescription>
 				<DrugCoded>
-					<ProductCode>49999084830</ProductCode>
+					<ProductCode>13107005530</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>30</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>10</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2019-11-03/Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2019-11-03</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>Distant Pharmacy</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+			<MedicationDispensed>
+				<DrugDescription>acetaminophen 325 MG / oxycodone hydrochloride 2.5 MG Oral Tablet</DrugDescription>
+				<DrugCoded>
+					<ProductCode>13107004301</ProductCode>
 					<ProductCodeQualifier>ND</ProductCodeQualifier>
 				</DrugCoded>
 				<Quantity>
