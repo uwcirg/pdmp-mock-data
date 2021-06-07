@@ -7,7 +7,7 @@ Expected output:
 Rx #1 
 Oxycodone 5 mg oral, 3x daily x 10d, disp #30
 Written/filled Oct 1 2020
-Should end Oct 11 2020, I think
+Should end Oct 10 2020, I think
 (15 mg of oxy per day = 22.5 MME per day)
 
 
@@ -19,10 +19,20 @@ Should end Nov 12 2020, I think
 
 
 Rx #3 
-Percodet 325/25 mg oral, 4x daily x 30d, disp #120
+Percocet 325/2.5 mg oral, 4x daily x 30d, disp #120
 Written/filled Nov 7 2020
-Should end Dec 6 2020, I think
+Should end Dec 7 2020, I think
 ( = 22.5 MME per day)
+
+
+Total MME should be:
+- Sept 30, 2020: 0
+- Oct 1, 2020: 22.5
+- Oct 10, 2020: 0
+- Nov 3, 2020: 22.5
+- Nov 7, 2020: 45
+- Nov 12, 2020: 22.5
+- Dec 8, 2020: 0
 
 -->
 <Message
