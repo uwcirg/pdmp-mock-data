@@ -60,7 +60,7 @@
 						<DEANumber>FT1111119</DEANumber>
 						<MutuallyDefined>FT1111119</MutuallyDefined>
 					</Identification>
-					<StoreName>TEST, DOCTOR</StoreName>
+					<StoreName>Distant Pharmacy</StoreName>
 					<Address/>
 				</Pharmacy>
 				<Prescriber>
@@ -94,7 +94,7 @@
 					<ProductCodeQualifier>ND</ProductCodeQualifier>
 				</DrugCoded>
 				<Quantity>
-					<Value>30</Value>
+					<Value>45</Value>
 					<CodeListQualifier>87</CodeListQualifier>
 					<UnitSourceCode>AC</UnitSourceCode>
 					<PotencyUnitCode>C38046</PotencyUnitCode>
@@ -113,7 +113,7 @@
 						<DEANumber>FT1111119</DEANumber>
 						<MutuallyDefined>FT1111119</MutuallyDefined>
 					</Identification>
-					<StoreName>TEST, DOCTOR</StoreName>
+					<StoreName>Local Pharmacy</StoreName>
 					<Address/>
 				</Pharmacy>
 				<Prescriber>
