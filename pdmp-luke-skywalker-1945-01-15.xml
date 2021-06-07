@@ -1,4 +1,7 @@
-﻿
+﻿<!--
+Block comment
+Multiline
+-->
 <Message
 	xmlns="http://www.ncpdp.org/schema/SCRIPT" release="006" version="010">
 	<Header>
