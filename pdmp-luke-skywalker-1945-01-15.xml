@@ -87,6 +87,59 @@
 					<FillNumber>00</FillNumber>
 				</HistorySource>
 			</MedicationDispensed>
+			<MedicationDispensed>
+				<DrugDescription>morphine sulfate 15 MG Oral Tablet</DrugDescription>
+				<DrugCoded>
+					<ProductCode>49999084830</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>30</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>30</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2019-10-05</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2019-10-05</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>TEST, DOCTOR</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
 
 
 
