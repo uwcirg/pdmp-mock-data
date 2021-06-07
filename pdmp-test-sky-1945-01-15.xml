@@ -1,0 +1,166 @@
+﻿<!--
+Expected output:  
+
+Rx #1 
+MS 15 mg oral, once daily x 30d, disp #30
+Written/filled Oct 25 2020
+Should end Nov 3 2020, I think
+
+Rx #2
+MS 15 mg oral, twice daily x 45d, disp #90
+Written/filled Oct 5 2020
+Should end Dec 8 or 9, I think
+
+start w/ a zero baseline
+on Oct 5 go to 30
+on Oct 25 go to 45
+on Nov 3 go to 30
+Dec 8 go to zero
+-->
+<Message
+	xmlns="http://www.ncpdp.org/schema/SCRIPT" release="006" version="010">
+	<Header>
+		<To Qualifier="ZZZ">6zxgnj00</To>
+		<From Qualifier="ZZZ">WA-OHP</From>
+		<MessageID>217823234234</MessageID>
+		<RelatesToMessageID>217823234234</RelatesToMessageID>
+		<SentTime>2021-06-04T19:16:18+00:00</SentTime>
+	</Header>
+	<Body>
+		<RxHistoryResponse>
+			<Response>
+				<Approved>
+					<ReferenceNumber>333059</ReferenceNumber>
+				</Approved>
+			</Response>
+			<Patient>
+				<Name>
+					<LastName>Skywalker</LastName>
+					<FirstName>Luke</FirstName>
+				</Name>
+				<Gender>M</Gender>
+				<DateOfBirth>
+					<Date>1977-01-12</Date>
+				</DateOfBirth>
+				<Address>
+					<AddressLine1>123 PDMP Request</AddressLine1>
+					<City>Reflected Response</City>
+					<State>AL</State>
+					<ZipCode>36830</ZipCode>
+				</Address>
+			</Patient>
+			<BenefitsCoordination>
+				<Consent>N</Consent>
+			</BenefitsCoordination>
+			<MedicationDispensed>
+				<DrugDescription>morphine sulfate 15 MG Oral Tablet</DrugDescription>
+				<DrugCoded>
+					<ProductCode>49999084830</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>30</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>30</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2019-10-25</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2019-10-25</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>Distant Pharmacy</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+			<MedicationDispensed>
+				<DrugDescription>morphine sulfate 15 MG Oral Tablet</DrugDescription>
+				<DrugCoded>
+					<ProductCode>49999084830</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>90</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>45</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2019-10-05</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2019-10-05</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>Local Pharmacy</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+
+
+
+		</RxHistoryResponse>
+	</Body>
+</Message>
