@@ -11,7 +11,7 @@ Written/filled Oct 1 2020
 Should end Oct 11 2020, I think
 (15 mg of oxy per day = 22.5 MME per day)
 
-repeat above Nov 3
+
 Rx #2 
 Oxycodone 5 mg oral, 3x daily x 10d, disp #30
 Written/filled Nov 3 2020
@@ -20,24 +20,11 @@ Should end Nov 12 2020, I think
 
 
 Rx #3 
-Vicodin 300/5 mg oral, 4x daily x 30d, disp #120
+Percodet 325/25 mg oral, 4x daily x 30d, disp #120
 Written/filled Nov 7 2020
 Should end Dec 6 2020, I think
 ( = 22.5 MME per day)
 
-
-
-Rx #2
-MS 15 mg oral, twice daily x 45d, disp #90
-Written/filled Oct 5 2020
-Should end Dec 8 or 9, I think
-
--- need to redo this w/ calculations -- 
-start w/ a zero baseline
-on Oct 5 go to 22.5
-on Oct 25 go to 45
-on Nov 3 go to 30
-Dec 8 go to zero
 -->
 <Message
 	xmlns="http://www.ncpdp.org/schema/SCRIPT" release="006" version="010">
@@ -179,7 +166,7 @@ Dec 8 go to zero
 					<SourceReference>ASAP_LZ_2</SourceReference>
 					<FillNumber>00</FillNumber>
 				</HistorySource>
-			</MedicationDispensed>
+			</MedicationDispensed>		
 			<MedicationDispensed>
 				<DrugDescription>acetaminophen 325 MG / oxycodone hydrochloride 2.5 MG Oral Tablet</DrugDescription>
 				<DrugCoded>
@@ -195,10 +182,10 @@ Dec 8 go to zero
 				<DaysSupply>45</DaysSupply>
 				<Substitutions>0</Substitutions>
 				<WrittenDate>
-					<Date>2019-10-05</Date>
+					<Date>2019-11-07</Date>
 				</WrittenDate>
 				<LastFillDate>
-					<Date>2019-10-05</Date>
+					<Date>2019-11-07</Date>
 				</LastFillDate>
 				<Pharmacy>
 					<Identification>
