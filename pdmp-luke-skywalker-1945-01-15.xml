@@ -12,6 +12,11 @@ Written/filled Oct 5 2020
 Should end Dec 8 or 9, I think
 
 graph should be zero until Oct 5, then 30 until Oct 25, then 45 until Nov 3, then 30 until Dec 8/9
+
+start w/ a zero baseline
+on Oct 5 go to 30
+on Oct 25 go to 45
+in
 -->
 <Message
 	xmlns="http://www.ncpdp.org/schema/SCRIPT" release="006" version="010">
