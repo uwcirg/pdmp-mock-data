@@ -94,12 +94,12 @@
 					<ProductCodeQualifier>ND</ProductCodeQualifier>
 				</DrugCoded>
 				<Quantity>
-					<Value>45</Value>
+					<Value>90</Value>
 					<CodeListQualifier>87</CodeListQualifier>
 					<UnitSourceCode>AC</UnitSourceCode>
 					<PotencyUnitCode>C38046</PotencyUnitCode>
 				</Quantity>
-				<DaysSupply>30</DaysSupply>
+				<DaysSupply>45</DaysSupply>
 				<Substitutions>0</Substitutions>
 				<WrittenDate>
 					<Date>2019-10-05</Date>
