@@ -1,6 +1,17 @@
 ﻿<!--
-Block comment
-Multiline
+Expected output:  
+
+Rx #1 
+MS 15 mg oral, once daily x 30d, disp #30
+Written/filled Oct 5 2020
+Should end Nov 3 2020, I think
+
+Rx #2
+MS 15 mg oral, twice daily x 45d, disp #90
+Written/filled Oct 25 2020
+Should end Dec 8 or 9, I think
+
+
 -->
 <Message
 	xmlns="http://www.ncpdp.org/schema/SCRIPT" release="006" version="010">
