@@ -106,8 +106,8 @@ Total MME should be:
 						<MutuallyDefined>FT1111119</MutuallyDefined>
 					</Identification>
 					<Name>
-						<LastName>PRESCRIBER</LastName>
-						<FirstName>TEST</FirstName>
+						<LastName>Prescriber</LastName>
+						<FirstName>Sue</FirstName>
 					</Name>
 					<Address/>
 				</Prescriber>
