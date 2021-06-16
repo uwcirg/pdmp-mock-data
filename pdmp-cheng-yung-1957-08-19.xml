@@ -1,0 +1,177 @@
+﻿<!--
+
+4th test file...
+
+Expected output:  
+
+Rx #1 
+Ultracet acetaminophen 325 MG/ tramadol 37.5 MG tablet ( 8 per day for 5 days) 42571011923
+Written/filled April 19,2021
+Should end April 23, 2021
+(300 mg of tramadol per day = 30 MME per day)
+
+
+
+
+Total MME should be:
+2021-04-18: 0
+2021-04-19: 30
+2021-04-24:0
+
+
+-->
+<Message
+	xmlns="http://www.ncpdp.org/schema/SCRIPT" release="006" version="010">
+	<Header>
+		<To Qualifier="ZZZ">6zxgnj00</To>
+		<From Qualifier="ZZZ">WA-OHP</From>
+		<MessageID>217823234234</MessageID>
+		<RelatesToMessageID>217823234234</RelatesToMessageID>
+		<SentTime>2021-06-04T19:16:18+00:00</SentTime>
+	</Header>
+	<Body>
+		<RxHistoryResponse>
+			<Response>
+				<Approved>
+					<ReferenceNumber>333059</ReferenceNumber>
+				</Approved>
+			</Response>
+			<Patient>
+				<Name>
+					<LastName>Yung</LastName>
+					<FirstName>Cheng</FirstName>
+				</Name>
+				<Gender>M</Gender>
+				<DateOfBirth>
+					<Date>1957-08-19</Date>
+				</DateOfBirth>
+				<Address>
+					<AddressLine1>123 PDMP Request</AddressLine1>
+					<City>Reflected Response</City>
+					<State>AL</State>
+					<ZipCode>36830</ZipCode>
+				</Address>
+			</Patient>
+			<BenefitsCoordination>
+				<Consent>N</Consent>
+			</BenefitsCoordination>
+			<MedicationDispensed>
+				<DrugDescription>Ultracet acetaminophen 325 MG/ tramadol 37.5 MG tablet</DrugDescription>
+				<DrugCoded>
+					<ProductCode>42571011923</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>40</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>5</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2021-04-19</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2021-04-19</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>Distant Pharmacy</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+
+
+			<MedicationDispensed>
+				<DrugDescription>LORAZEPAM 1 MG TABLET</DrugDescription>
+				<DrugCoded>
+					<ProductCode>00591024110</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>60</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>30</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2020-09-01</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2020-09-01</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>TEST, DOCTOR</StoreName>
+					<Address/>
+					<CommunicationNumbers>
+						<Communication>
+							<Number>3343210323</Number>
+							<Qualifier>TE</Qualifier>
+						</Communication>
+					</CommunicationNumbers>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>TEST</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>155</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+			
+
+
+		</RxHistoryResponse>
+	</Body>
+</Message>

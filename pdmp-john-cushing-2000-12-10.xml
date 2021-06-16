@@ -1,0 +1,409 @@
+﻿<!--
+
+6th test file...
+
+Expected output:  
+
+Rx #1 
+Dilaudid hydromorphone hydrochloride 4 MG Oral Tablet (4x daily 45 days) 63629379802
+Written May 17, 2021
+Filled May 20, 2021
+Should end July 3, 2021
+(16 mg of dilaudid per day = 64 MME per day)
+
+
+Rx #2 
+24 HR hydromorphone hydrochloride 12 MG Extended Release Oral Tablet (1x per day, 30 days) 43602026730
+Written/filled:  Jan 5, 2021
+Should end Feb 4, 2021
+(12 mg of exalgo per day = 48 MME per day)
+
+
+Rx #3 
+Lortab acetaminophen 325 MG / hydrocodone bitartrate 10 MG Oral Tablet (3 x per day 15 days) 00406012560
+Written/filled: August 23 1999
+Should end Sept 20, 1999
+(30mg hydrocodone = 30 MME per day)
+
+
+Total MME should be:
+- 1999-08-22: 0
+- 1999-08-23: 30
+- 1999-09-21: 0
+- 2021-01-05: 48
+- 2021-02-05: 0
+- 2021-05-20: 64
+
+-->
+<Message
+	xmlns="http://www.ncpdp.org/schema/SCRIPT" release="006" version="010">
+	<Header>
+		<To Qualifier="ZZZ">6zxgnj00</To>
+		<From Qualifier="ZZZ">WA-OHP</From>
+		<MessageID>217823234234</MessageID>
+		<RelatesToMessageID>217823234234</RelatesToMessageID>
+		<SentTime>2021-06-04T19:16:18+00:00</SentTime>
+	</Header>
+	<Body>
+		<RxHistoryResponse>
+			<Response>
+				<Approved>
+					<ReferenceNumber>333059</ReferenceNumber>
+				</Approved>
+			</Response>
+			<Patient>
+				<Name>
+					<LastName>Cushing</LastName>
+					<FirstName>John</FirstName>
+				</Name>
+				<Gender>M</Gender>
+				<DateOfBirth>
+					<Date>2000-12-10</Date>
+				</DateOfBirth>
+				<Address>
+					<AddressLine1>123 PDMP Request</AddressLine1>
+					<City>Reflected Response</City>
+					<State>AL</State>
+					<ZipCode>36830</ZipCode>
+				</Address>
+			</Patient>
+			<BenefitsCoordination>
+				<Consent>N</Consent>
+			</BenefitsCoordination>
+			<MedicationDispensed>
+				<DrugDescription>Lortab acetaminophen 325 MG / hydrocodone bitartrate 10 MG Oral Tablet</DrugDescription>
+				<DrugCoded>
+					<ProductCode>00406012560</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>45</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>15</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>1999-08-23</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>1999-08-23</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>Distant Pharmacy</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+			<MedicationDispensed>
+				<DrugDescription>24 HR hydromorphone hydrochloride 12 MG Extended Release Oral Tablet </DrugDescription>
+				<DrugCoded>
+					<ProductCode>43602026730</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>30</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>30</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2021-01-05</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2021-01-05</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>Distant Pharmacy</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>		
+			<MedicationDispensed>
+				<DrugDescription>Dilaudid hydromorphone hydrochloride 4 MG Oral Tablet</DrugDescription>
+				<DrugCoded>
+					<ProductCode>63629379802</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>180</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>45</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2021-05-17</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2021-05-20</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>Local Pharmacy</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+
+			<MedicationDispensed>
+				<DrugDescription>LORAZEPAM 1 MG TABLET</DrugDescription>
+				<DrugCoded>
+					<ProductCode>00591024110</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>60</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>30</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2020-09-01</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2020-09-01</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>TEST, DOCTOR</StoreName>
+					<Address/>
+					<CommunicationNumbers>
+						<Communication>
+							<Number>3343210323</Number>
+							<Qualifier>TE</Qualifier>
+						</Communication>
+					</CommunicationNumbers>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>TEST</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>155</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+			<MedicationDispensed>
+				<DrugDescription>LORAZEPAM 1 MG TABLET</DrugDescription>
+				<DrugCoded>
+					<ProductCode>00591024110</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>60</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>30</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2020-11-01</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2020-11-01</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>TEST, DOCTOR</StoreName>
+					<Address/>
+					<CommunicationNumbers>
+						<Communication>
+							<Number>3343210323</Number>
+							<Qualifier>TE</Qualifier>
+						</Communication>
+					</CommunicationNumbers>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>TEST</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>155</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+
+			<MedicationDispensed>
+				<DrugDescription>ZOLPIDEM TARTRATE 10 MG TABLET</DrugDescription>
+				<DrugCoded>
+					<ProductCode>16714062202</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>30</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>30</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2020-08-15</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2020-08-15</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>TEST, DOCTOR</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>VET_CORRECT_NO_NPI</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+
+
+		</RxHistoryResponse>
+	</Body>
+</Message>

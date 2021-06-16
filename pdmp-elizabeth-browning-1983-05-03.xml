@@ -1,0 +1,551 @@
+﻿<!--
+
+3rd test file...
+
+Expected output:  
+
+Rx #1 
+Methadone 10 mg tablet (2x 10mg tablet - 7 days = 14 tablets) 00406577123
+Written/filled: Nov 3, 2020
+Should end on Nov 9, 2020
+(20 mg of methadone per day = 80 MME per day)
+
+
+Rx #2 
+Methadone 10 mg tablet (4x 10mg tablet - 7 days = 28 tablets) 00406577123
+Written Nov 9 2020
+Filled Nov 10 2020
+Should end Nov 17 2020
+(40 mg of methadone per day = 320 MME per)
+
+
+Rx #3 
+Methadone 10 mg tablet (6x 10mg tablet - 7 days = 42 tablets) 00406577123
+Written/filled Nov 16 2020
+Should end Nov 22
+(60 mg of methadone per day = 600 MME per)
+
+Rx #4 
+Methadone 40 mg diskettes (2x 40mg diskettes - 7 days) 00054453825
+Written/filled Nov 23 2020
+Should end Nov 29
+(80 mg of methadone per day = 960 MME per day)
+
+
+Rx #5 
+Methadone 2 x 10mg/mL 5 mL 60 days syrup 2 x 	17856052702
+Written/filled Nov 30 2020
+Should end Jan 28, 2021
+(100 mg of methadone per day = 1200 MME per day)
+
+
+Rx #6
+Suboxone - Buprenorphine/ naloxone sublingual film  8/2 (30 days) 52427069803
+Written Feb 1, 2021
+Filled Feb 2, 2021
+Should end Mar 3, 2021 
+(8 mg of buprenorphine film per day = 210 MME per day)
+
+Rx #7
+Suboxone - Buprenorphine/ naloxone sublingual film  4/1 (30 days) 47781035603
+Written Mar 2, 2021
+Filled Mar 3, 2021
+Should end Apr 2, 2021
+(4 mg of buprenorphine film per day = 120 MME per day)
+
+Rx #8
+Suboxone - Buprenorphine/ naloxone sublingual film  2/.5 (30 days) 00378876593
+Written Apr 2, 2021
+Filled Apr 3, 2021
+Should end May 3, 2021
+(2 mg of buprenorphine film per day = 60 MME per day)
+
+Total MME should be:
+2020-11-02: 0
+2020-11-03: 80
+2020-11-10: 320
+2020-11-16: 920
+2020-11-18: 600
+2020-11-23: 960
+2020-11-30: 1200
+2021-01-29: 0
+2021-02-02: 210
+2021-03-03: 120
+2021-040-03:  60
+2021-05-04: 0
+
+
+-->
+<Message
+	xmlns="http://www.ncpdp.org/schema/SCRIPT" release="006" version="010">
+	<Header>
+		<To Qualifier="ZZZ">6zxgnj00</To>
+		<From Qualifier="ZZZ">WA-OHP</From>
+		<MessageID>217823234234</MessageID>
+		<RelatesToMessageID>217823234234</RelatesToMessageID>
+		<SentTime>2021-06-04T19:16:18+00:00</SentTime>
+	</Header>
+	<Body>
+		<RxHistoryResponse>
+			<Response>
+				<Approved>
+					<ReferenceNumber>333059</ReferenceNumber>
+				</Approved>
+			</Response>
+			<Patient>
+				<Name>
+					<LastName>Browning</LastName>
+					<FirstName>Elizabeth</FirstName>
+				</Name>
+				<Gender>F</Gender>
+				<DateOfBirth>
+					<Date>1983-05-03</Date>
+				</DateOfBirth>
+				<Address>
+					<AddressLine1>123 PDMP Request</AddressLine1>
+					<City>Reflected Response</City>
+					<State>AL</State>
+					<ZipCode>36830</ZipCode>
+				</Address>
+			</Patient>
+			<BenefitsCoordination>
+				<Consent>N</Consent>
+			</BenefitsCoordination>
+
+			<MedicationDispensed>
+				<DrugDescription>Suboxone - Buprenorphine/ naloxone sublingual film 2/.5 MG </DrugDescription>
+				<DrugCoded>
+					<ProductCode>00378876593</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>30</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>30</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2021-04-02</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2021-04-03</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>Distant Pharmacy</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+
+			<MedicationDispensed>
+				<DrugDescription>Suboxone - Buprenorphine/ naloxone sublingual film 4/1 MG</DrugDescription>
+				<DrugCoded>
+					<ProductCode>47781035603</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>30</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>30</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2021-03-02</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2021-03-03</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>Distant Pharmacy</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>		
+
+			<MedicationDispensed>
+				<DrugDescription>Suboxone - Buprenorphine/ naloxone sublingual film 8/2 MG</DrugDescription>
+				<DrugCoded>
+					<ProductCode>52427069803</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>30</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>30</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2021-02-01</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2021-02-02</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>Local Pharmacy</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+
+					<MedicationDispensed>
+				<DrugDescription>Methadone 10mg/mL 5 mL solution</DrugDescription>
+				<DrugCoded>
+					<ProductCode>17856052702</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>120</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>60</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2020-11-30</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2020-11-30</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>Local Pharmacy</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+
+
+					<MedicationDispensed>
+				<DrugDescription>Methadone 40 mg diskette </DrugDescription>
+				<DrugCoded>
+					<ProductCode>00054453825</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>14</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>7</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2020-11-23</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2020-11-23</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>Local Pharmacy</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+
+
+					<MedicationDispensed>
+				<DrugDescription>Methadone 10 mg tablet</DrugDescription>
+				<DrugCoded>
+					<ProductCode>00406577123</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>42</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>7</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2020-11-16</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2020-11-16</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>Local Pharmacy</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+
+					<MedicationDispensed>
+				<DrugDescription>Methadone 10 mg tablet</DrugDescription>
+				<DrugCoded>
+					<ProductCode>00406577123</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>28</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>7</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2020-11-09</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2020-11-10</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>Local Pharmacy</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+
+								<MedicationDispensed>
+				<DrugDescription>Methadone 10 mg tablet</DrugDescription>
+				<DrugCoded>
+					<ProductCode>00406577123</ProductCode>
+					<ProductCodeQualifier>ND</ProductCodeQualifier>
+				</DrugCoded>
+				<Quantity>
+					<Value>14</Value>
+					<CodeListQualifier>87</CodeListQualifier>
+					<UnitSourceCode>AC</UnitSourceCode>
+					<PotencyUnitCode>C38046</PotencyUnitCode>
+				</Quantity>
+				<DaysSupply>7</DaysSupply>
+				<Substitutions>0</Substitutions>
+				<WrittenDate>
+					<Date>2020-11-03</Date>
+				</WrittenDate>
+				<LastFillDate>
+					<Date>2020-11-03</Date>
+				</LastFillDate>
+				<Pharmacy>
+					<Identification>
+						<NCPDPID>0</NCPDPID>
+						<DEANumber>FT1111119</DEANumber>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<StoreName>Local Pharmacy</StoreName>
+					<Address/>
+				</Pharmacy>
+				<Prescriber>
+					<Identification>
+						<DEANumber>FT1111119</DEANumber>
+						<NCPDPID>0</NCPDPID>
+						<MutuallyDefined>FT1111119</MutuallyDefined>
+					</Identification>
+					<Name>
+						<LastName>PRESCRIBER</LastName>
+						<FirstName>TEST</FirstName>
+					</Name>
+					<Address/>
+				</Prescriber>
+				<HistorySource>
+					<Source>
+						<SourceQualifier>P2</SourceQualifier>
+						<Reference>
+							<IDValue>FT1111119</IDValue>
+							<IDQualifier>DH</IDQualifier>
+						</Reference>
+					</Source>
+					<SourceReference>ASAP_LZ_2</SourceReference>
+					<FillNumber>00</FillNumber>
+				</HistorySource>
+			</MedicationDispensed>
+
+		</RxHistoryResponse>
+	</Body>
+</Message>
