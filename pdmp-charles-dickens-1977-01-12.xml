@@ -19,10 +19,10 @@ Should end Nov 12 2020, I think
 
 
 Rx #3 
-Percocet 325/2.5 mg oral, 4x daily x 30d, disp #120
+Percocet 325/2.5 mg oral, 2x daily x 45d, disp #90
 Written/filled Nov 7 2020
 Should end Dec 7 2020, I think
-( = 22.5 MME per day)
+(5 = 7.5 MME per day)
 
 
 Total MME should be:
@@ -30,8 +30,8 @@ Total MME should be:
 - Oct 1, 2020: 22.5
 - Oct 10, 2020: 0
 - Nov 3, 2020: 22.5
-- Nov 7, 2020: 45
-- Nov 12, 2020: 22.5
+- Nov 7, 2020: 30
+- Nov 12, 2020: 7.5
 - Dec 8, 2020: 0
 
 -->
@@ -96,7 +96,7 @@ Total MME should be:
 						<DEANumber>FT1111119</DEANumber>
 						<MutuallyDefined>FT1111119</MutuallyDefined>
 					</Identification>
-					<StoreName>Distant Pharmacy</StoreName>
+					<StoreName>Corner Drugstore, Kirkland</StoreName>
 					<Address/>
 				</Pharmacy>
 				<Prescriber>
@@ -106,8 +106,8 @@ Total MME should be:
 						<MutuallyDefined>FT1111119</MutuallyDefined>
 					</Identification>
 					<Name>
-						<LastName>PRESCRIBER</LastName>
-						<FirstName>TEST</FirstName>
+						<LastName>Prescriber</LastName>
+						<FirstName>Sue</FirstName>
 					</Name>
 					<Address/>
 				</Prescriber>
@@ -149,7 +149,7 @@ Total MME should be:
 						<DEANumber>FT1111119</DEANumber>
 						<MutuallyDefined>FT1111119</MutuallyDefined>
 					</Identification>
-					<StoreName>Distant Pharmacy</StoreName>
+					<StoreName>Seattle Hospital ED</StoreName>
 					<Address/>
 				</Pharmacy>
 				<Prescriber>
@@ -159,8 +159,8 @@ Total MME should be:
 						<MutuallyDefined>FT1111119</MutuallyDefined>
 					</Identification>
 					<Name>
-						<LastName>PRESCRIBER</LastName>
-						<FirstName>TEST</FirstName>
+						<LastName>Prescriber</LastName>
+						<FirstName>Resident</FirstName>
 					</Name>
 					<Address/>
 				</Prescriber>
@@ -202,7 +202,7 @@ Total MME should be:
 						<DEANumber>FT1111119</DEANumber>
 						<MutuallyDefined>FT1111119</MutuallyDefined>
 					</Identification>
-					<StoreName>Local Pharmacy</StoreName>
+					<StoreName>Seattle Ortho Clinic</StoreName>
 					<Address/>
 				</Pharmacy>
 				<Prescriber>
@@ -212,8 +212,8 @@ Total MME should be:
 						<MutuallyDefined>FT1111119</MutuallyDefined>
 					</Identification>
 					<Name>
-						<LastName>PRESCRIBER</LastName>
-						<FirstName>TEST</FirstName>
+						<LastName>Prescriber</LastName>
+						<FirstName>Bone</FirstName>
 					</Name>
 					<Address/>
 				</Prescriber>
@@ -256,7 +256,7 @@ Total MME should be:
 						<DEANumber>FT1111119</DEANumber>
 						<MutuallyDefined>FT1111119</MutuallyDefined>
 					</Identification>
-					<StoreName>TEST, DOCTOR</StoreName>
+					<StoreName>Corner Drugstore, Kirkland</StoreName>
 					<Address/>
 					<CommunicationNumbers>
 						<Communication>
@@ -272,8 +272,8 @@ Total MME should be:
 						<MutuallyDefined>FT1111119</MutuallyDefined>
 					</Identification>
 					<Name>
-						<LastName>TEST</LastName>
-						<FirstName>TEST</FirstName>
+						<LastName>Prescriber</LastName>
+						<FirstName>Locum</FirstName>
 					</Name>
 					<Address/>
 				</Prescriber>
@@ -304,10 +304,10 @@ Total MME should be:
 				<DaysSupply>30</DaysSupply>
 				<Substitutions>0</Substitutions>
 				<WrittenDate>
-					<Date>2020-11-01</Date>
+					<Date>2020-11-20</Date>
 				</WrittenDate>
 				<LastFillDate>
-					<Date>2020-11-01</Date>
+					<Date>2020-11-20</Date>
 				</LastFillDate>
 				<Pharmacy>
 					<Identification>
@@ -315,7 +315,7 @@ Total MME should be:
 						<DEANumber>FT1111119</DEANumber>
 						<MutuallyDefined>FT1111119</MutuallyDefined>
 					</Identification>
-					<StoreName>TEST, DOCTOR</StoreName>
+					<StoreName>Corner Drugstore, Kirkland</StoreName>
 					<Address/>
 					<CommunicationNumbers>
 						<Communication>
@@ -331,8 +331,8 @@ Total MME should be:
 						<MutuallyDefined>FT1111119</MutuallyDefined>
 					</Identification>
 					<Name>
-						<LastName>TEST</LastName>
-						<FirstName>TEST</FirstName>
+						<LastName>Prescriber</LastName>
+						<FirstName>Joe</FirstName>
 					</Name>
 					<Address/>
 				</Prescriber>
@@ -375,7 +375,7 @@ Total MME should be:
 						<DEANumber>FT1111119</DEANumber>
 						<MutuallyDefined>FT1111119</MutuallyDefined>
 					</Identification>
-					<StoreName>TEST, DOCTOR</StoreName>
+					<StoreName>Corner Drugstore, Kirkland</StoreName>
 					<Address/>
 				</Pharmacy>
 				<Prescriber>
@@ -385,8 +385,8 @@ Total MME should be:
 						<MutuallyDefined>FT1111119</MutuallyDefined>
 					</Identification>
 					<Name>
-						<LastName>PRESCRIBER</LastName>
-						<FirstName>TEST</FirstName>
+						<LastName>Prescriber</LastName>
+						<FirstName>Joe</FirstName>
 					</Name>
 					<Address/>
 				</Prescriber>
