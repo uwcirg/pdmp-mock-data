@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 
 faux pt #2...
 
@@ -270,7 +270,7 @@ Total MME should be:
 			</MedicationDispensed>
 
 
-</MedicationDispensed>		
+            <MedicationDispensed>
 				<DrugDescription>Fentanyl Transdermal System, 0.025 mg/hr </DrugDescription>
 				<DrugCoded>
 					<ProductCode>61919060205</ProductCode>
@@ -324,7 +324,7 @@ Total MME should be:
 				</HistorySource>
 			</MedicationDispensed>
 
-</MedicationDispensed>		
+            <MedicationDispensed>
 				<DrugDescription>Fentanyl Transdermal System, 0.05 mg/hr </DrugDescription>
 				<DrugCoded>
 					<ProductCode>60505700700</ProductCode>
@@ -378,7 +378,7 @@ Total MME should be:
 				</HistorySource>
 			</MedicationDispensed>
 
-</MedicationDispensed>		
+            <MedicationDispensed>
 				<DrugDescription>Fentanyl Transdermal System, 0.075 mg/hr </DrugDescription>
 				<DrugCoded>
 					<ProductCode>00378912316</ProductCode>
