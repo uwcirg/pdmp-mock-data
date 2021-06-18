@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Message DatatypesVersion="20170715" TransportVersion="20170715" TransactionDomain="SCRIPT" TransactionVersion="20170715" StructuresVersion="20170715" 
+  ECLVersion="20170715" xsi:noNamespaceSchemaLocation="transport.xsd"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">      
+   <Header>
+      <To Qualifier="P">1013988328</To>
+      <From Qualifier="D">1457623993</From>
+      <MessageID>50000000</MessageID>
+      <SentTime>2020-05-05T12:00:35</SentTime>
+      <SenderSoftware>
+         <SenderSoftwareDeveloper>NCPDP Conformance Tool</SenderSoftwareDeveloper>
+         <SenderSoftwareProduct>443</SenderSoftwareProduct>
+         <SenderSoftwareVersionRelease>12.1</SenderSoftwareVersionRelease>
+      </SenderSoftware>
+   </Header>
+   <Body>
+      <RxHistoryRequest>
+          <BenefitsCoordination>
+            <PayerIdentification>
+               <IINNumber>PBM123</IINNumber>
+            </PayerIdentification>
+            <PayerName>PBM Company</PayerName>
+            <CardholderID>PBMC-ONC MU-6002B</CardholderID>
+            <CardHolderName>
+               <LastName>Yosemite</LastName>
+               <FirstName>John</FirstName>
+            </CardHolderName>
+            <GroupID>GROUPNUMBER</GroupID>
+            <PayerResponsibilityCode>P</PayerResponsibilityCode>
+            <Consent>Y</Consent>
+         </BenefitsCoordination>
+         <Patient>
+            <HumanPatient>
+               <Identification>
+                  <PatientAccountNumber>PBMC-ONC MU-6002B</PatientAccountNumber>
+               </Identification>
+               <Name>
+                  <LastName>Yosemite</LastName>
+                  <FirstName>John</FirstName>
+               </Name>
+               <Gender>M</Gender>
+               <DateOfBirth>
+                  <Date>1963-12-20</Date>
+               </DateOfBirth>
+               <Address>
+                  <AddressLine1>2237 Roosevelt Street</AddressLine1>
+                  <City>San Francisco</City>
+                  <StateProvince>CA</StateProvince>
+                  <PostalCode>94111</PostalCode>
+                  <CountryCode>US</CountryCode>
+               </Address>
+               <CommunicationNumbers>
+                  <PrimaryTelephone>
+                  <Number>4153421212</Number>
+                  </PrimaryTelephone>
+               </CommunicationNumbers>
+            </HumanPatient>
+         </Patient>
+         <Pharmacy>
+            <Identification>      
+               <NCPDPID>1120188</NCPDPID>
+               <NPI>1013988328</NPI>
+            </Identification>
+            <BusinessName>NYC Pharmacy 10.6MU</BusinessName>
+            <Address>
+               <AddressLine1>88 Park Street</AddressLine1>
+               <City>Brooklyn</City>
+               <StateProvince>NY</StateProvince>
+               <PostalCode>11201</PostalCode>
+               <CountryCode>US</CountryCode>
+            </Address>
+            <CommunicationNumbers>
+               <PrimaryTelephone>
+               <Number>7185157181</Number>
+               </PrimaryTelephone>
+            </CommunicationNumbers>
+         </Pharmacy>
+         <Prescriber>
+            <NonVeterinarian>
+               <Identification>      
+                  <DEANumber>BC4060404</DEANumber>
+                  <NPI>1457623993</NPI>
+               </Identification>
+               <PracticeLocation>
+                  <BusinessName>Clinic One4</BusinessName>
+               </PracticeLocation>
+               <Name>
+                  <LastName>Crawley</LastName>
+                  <FirstName>Robert</FirstName>
+               </Name>
+               <Address>
+                  <AddressLine1>625 Downton Lane</AddressLine1>
+                  <City>Sonoma</City>
+                  <StateProvince>CA</StateProvince>
+                  <PostalCode>95476</PostalCode>
+                  <CountryCode>US</CountryCode>
+               </Address>
+               <CommunicationNumbers>
+                  <PrimaryTelephone>
+                  <Number>7072103333</Number>
+                  </PrimaryTelephone>
+               </CommunicationNumbers>
+            </NonVeterinarian>
+         </Prescriber>
+         <RequestedDates>
+            <StartDate>
+               <Date>2019-05-05</Date>
+            </StartDate>
+            <EndDate>
+               <Date>2019-05-05</Date>
+            </EndDate>
+         </RequestedDates>
+      </RxHistoryRequest>
+    </Body>
+</Message>
+<!--
+NIST_NCPDP_Certification (Updated: 2021-04-28)
+-->
