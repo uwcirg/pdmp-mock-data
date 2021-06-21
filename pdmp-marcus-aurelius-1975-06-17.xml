@@ -280,7 +280,7 @@ Total MME should be:
 					<Value>1</Value>
 					<CodeListQualifier>87</CodeListQualifier>
 					<UnitSourceCode>AC</UnitSourceCode>
-					<PotencyUnitCode>C38046</PotencyUnitCode>
+					<PotencyUnitCode>C42923</PotencyUnitCode>
 				</Quantity>
 				<DaysSupply>3</DaysSupply>
 				<Substitutions>0</Substitutions>
@@ -334,7 +334,7 @@ Total MME should be:
 					<Value>3</Value>
 					<CodeListQualifier>87</CodeListQualifier>
 					<UnitSourceCode>AC</UnitSourceCode>
-					<PotencyUnitCode>C38046</PotencyUnitCode>
+					<PotencyUnitCode>C42923</PotencyUnitCode>
 				</Quantity>
 				<DaysSupply>9</DaysSupply>
 				<Substitutions>0</Substitutions>
@@ -388,7 +388,7 @@ Total MME should be:
 					<Value>5</Value>
 					<CodeListQualifier>87</CodeListQualifier>
 					<UnitSourceCode>AC</UnitSourceCode>
-					<PotencyUnitCode>C38046</PotencyUnitCode>
+					<PotencyUnitCode>C42923</PotencyUnitCode>
 				</Quantity>
 				<DaysSupply>15</DaysSupply>
 				<Substitutions>0</Substitutions>
@@ -443,7 +443,7 @@ Total MME should be:
 					<Value>5</Value>
 					<CodeListQualifier>87</CodeListQualifier>
 					<UnitSourceCode>AC</UnitSourceCode>
-					<PotencyUnitCode>C38046</PotencyUnitCode>
+					<PotencyUnitCode>C42923</PotencyUnitCode>
 				</Quantity>
 				<DaysSupply>15</DaysSupply>
 				<Substitutions>0</Substitutions>
