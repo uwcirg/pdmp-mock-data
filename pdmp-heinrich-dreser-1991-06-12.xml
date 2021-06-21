@@ -48,8 +48,8 @@ Total MME should be:
 			</Response>
 			<Patient>
 				<Name>
-					<LastName>Heinrich</LastName>
-					<FirstName>Dreser</FirstName>
+					<LastName>Dreser</LastName>
+					<FirstName>Heinrich</FirstName>
 				</Name>
 				<Gender>M</Gender>
 				<DateOfBirth>
