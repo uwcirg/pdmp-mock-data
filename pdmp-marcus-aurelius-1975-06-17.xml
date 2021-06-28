@@ -188,10 +188,10 @@ Total MME should be:
 				<DaysSupply>30</DaysSupply>
 				<Substitutions>0</Substitutions>
 				<WrittenDate>
-					<Date>2021-02-22</Date>
+					<Date>2021-02-21</Date>
 				</WrittenDate>
 				<LastFillDate>
-					<Date>2021-02-23</Date>
+					<Date>2021-02-21</Date>
 				</LastFillDate>
 				<Pharmacy>
 					<Identification>
@@ -460,10 +460,10 @@ Total MME should be:
 				<DaysSupply>30</DaysSupply>
 				<Substitutions>0</Substitutions>
 				<WrittenDate>
-					<Date>2021-05-23</Date>
+					<Date>2021-05-24</Date>
 				</WrittenDate>
 				<LastFillDate>
-					<Date>2021-05-23</Date>
+					<Date>2021-05-24</Date>
 				</LastFillDate>
 				<Pharmacy>
 					<Identification>
