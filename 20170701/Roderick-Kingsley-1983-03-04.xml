@@ -1,5 +1,5 @@
 <!--
-Birthdate in file name does not match birthdate in body of xml - maybe this isn't important, not sure what the file names look like from PMP, so not sure if this is relevant
+number of days dispensed is 0 for both opioids
   -->
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -30,12 +30,12 @@ Birthdate in file name does not match birthdate in body of xml - maybe this isn'
       <Patient>
         <HumanPatient>
           <Name>
-            <LastName>Quinn</LastName>
-            <FirstName>Harley</FirstName>
+            <LastName>Kingsley</LastName>
+            <FirstName>Roderick</FirstName>
           </Name>
           <Gender>F</Gender>
           <DateOfBirth>
-            <Date>1992-09-12</Date>
+            <Date>1983-03-04</Date>
           </DateOfBirth>
         </HumanPatient>
       </Patient>
@@ -54,7 +54,7 @@ Birthdate in file name does not match birthdate in body of xml - maybe this isn'
             <Code>Unspecified</Code>
           </QuantityUnitOfMeasure>
         </Quantity>
-        <DaysSupply>30</DaysSupply>
+        <DaysSupply>0</DaysSupply>
         <WrittenDate>
           <Date>2018-01-10</Date>
         </WrittenDate>
@@ -71,7 +71,7 @@ Birthdate in file name does not match birthdate in body of xml - maybe this isn'
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Gotham Pharmacy, INC.</BusinessName>
+          <BusinessName>Central Park Pharmacy, INC.</BusinessName>
           <Address>
             <AddressLine1>1 Atomic HWY S</AddressLine1>
             <City>Seattle</City>
@@ -92,8 +92,8 @@ Birthdate in file name does not match birthdate in body of xml - maybe this isn'
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Dini</LastName>
-              <FirstName>Paul</FirstName>
+              <LastName>Stern</LastName>
+              <FirstName>Roger</FirstName>
             </Name>
             <Address>
               <AddressLine1>100 Mocking Bird ST</AddressLine1>
@@ -146,7 +146,7 @@ Birthdate in file name does not match birthdate in body of xml - maybe this isn'
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Gotham Pharmacy, INC.</BusinessName>
+          <BusinessName>Central Park Pharmacy, INC.</BusinessName>
           <Address>
             <AddressLine1>1 Some HWY S</AddressLine1>
             <City>Seattle</City>
@@ -167,8 +167,8 @@ Birthdate in file name does not match birthdate in body of xml - maybe this isn'
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Dini</LastName>
-              <FirstName>Paul</FirstName>
+              <LastName>Stern</LastName>
+              <FirstName>Roger</FirstName>
             </Name>
             <Address>
               <AddressLine1>1 Old ST</AddressLine1>
@@ -204,7 +204,7 @@ Birthdate in file name does not match birthdate in body of xml - maybe this isn'
             <Code>Unspecified</Code>
           </QuantityUnitOfMeasure>
         </Quantity>
-        <DaysSupply>30</DaysSupply>
+        <DaysSupply>0</DaysSupply>
         <WrittenDate>
           <Date>2018-08-14</Date>
         </WrittenDate>
@@ -221,7 +221,7 @@ Birthdate in file name does not match birthdate in body of xml - maybe this isn'
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Gotham Pharmacy, INC.</BusinessName>
+          <BusinessName>Central Park Pharmacy, INC.</BusinessName>
           <Address>
             <AddressLine1>1 SomeHWY S</AddressLine1>
             <City>Seattle</City>
@@ -242,8 +242,8 @@ Birthdate in file name does not match birthdate in body of xml - maybe this isn'
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Dini</LastName>
-              <FirstName>Paul</FirstName>
+              <LastName>Stern</LastName>
+              <FirstName>Roger</FirstName>
             </Name>
             <Address>
               <AddressLine1>1 Old ST</AddressLine1>

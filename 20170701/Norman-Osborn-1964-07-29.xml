@@ -1,5 +1,5 @@
 <!--
-NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 17781042747, the other two medications are correct
+Value for fentanyl pathch 75 mcg/hr and HYDROCODONE-ACETAMIN 7.5-325 have been changed to 0
   -->
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -30,12 +30,12 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
       <Patient>
         <HumanPatient>
           <Name>
-            <LastName>Lex</LastName>
-            <FirstName>Luther</FirstName>
+            <LastName>Osborn</LastName>
+            <FirstName>Norman</FirstName>
           </Name>
           <Gender>M</Gender>
           <DateOfBirth>
-            <Date>1940-04-23</Date>
+            <Date>1964-07-29</Date>
           </DateOfBirth>
         </HumanPatient>
       </Patient>
@@ -43,12 +43,12 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
         <DrugDescription>FENTANYL 75 MCG/HR PATCH</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>17781042747</Code>
+            <Code>47781042747</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
         <Quantity>
-          <Value>10</Value>
+          <Value>0</Value>
           <CodeListQualifier>87</CodeListQualifier>
           <QuantityUnitOfMeasure>
             <Code>Unspecified</Code>
@@ -71,7 +71,7 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Smallville Pharmacy, INC.</BusinessName>
+          <BusinessName>Central Manhattan Pharmacy, INC.</BusinessName>
           <Address>
             <AddressLine1>1 Atomic HWY S</AddressLine1>
             <City>Seattle</City>
@@ -92,8 +92,8 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Siegel</LastName>
-              <FirstName>Jerry</FirstName>
+              <LastName>Lee</LastName>
+              <FirstName>Stan</FirstName>
             </Name>
             <Address>
               <AddressLine1>100 Metropolis ST</AddressLine1>
@@ -146,7 +146,7 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Smallville Pharmacy, INC.</BusinessName>
+          <BusinessName>Central Manhattan, INC.</BusinessName>
           <Address>
             <AddressLine1>1 Any HWY S</AddressLine1>
             <City>Seattle</City>
@@ -167,8 +167,8 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Siegel</LastName>
-              <FirstName>Jerry</FirstName>
+              <LastName>Lee</LastName>
+              <FirstName>Stan</FirstName>
             </Name>
             <Address>
               <AddressLine1>1 Metropolis ST</AddressLine1>
@@ -198,7 +198,7 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
           </ProductCode>
         </DrugCoded>
         <Quantity>
-          <Value>240</Value>
+          <Value>0</Value>
           <CodeListQualifier>87</CodeListQualifier>
           <QuantityUnitOfMeasure>
             <Code>Unspecified</Code>
@@ -221,7 +221,7 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Smallville Pharmacy, INC.</BusinessName>
+          <BusinessName>Central Manhattan Pharmacy, INC.</BusinessName>
           <Address>
             <AddressLine1>1 Any HWY S</AddressLine1>
             <City>Seattle</City>
@@ -242,8 +242,8 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Shuster</LastName>
-              <FirstName>Joe</FirstName>
+              <LastName>Lee</LastName>
+              <FirstName>Stan</FirstName>
             </Name>
             <Address>
               <AddressLine1>1 Metropolis ST</AddressLine1>
