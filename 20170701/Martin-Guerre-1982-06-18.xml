@@ -26,12 +26,12 @@
       <Patient>
         <HumanPatient>
           <Name>
-            <LastName>Seda</LastName>
-            <FirstName>Eddie</FirstName>
+            <LastName>Guerre</LastName>
+            <FirstName>Martin</FirstName>
           </Name>
           <Gender>M</Gender>
           <DateOfBirth>
-            <Date>1996-06-18</Date>
+            <Date>1982-06-18</Date>
           </DateOfBirth>
         </HumanPatient>
       </Patient>
