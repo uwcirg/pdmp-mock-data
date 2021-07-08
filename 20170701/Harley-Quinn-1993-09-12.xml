@@ -1,5 +1,5 @@
 <!--
-NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 17781042747, the other two medications are correct
+Birthdate in file name does not match birthdate in body of xml - maybe this isn't important, not sure what the file names look like from PMP, so not sure if this is relevant
   -->
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -92,8 +92,8 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Siegel</LastName>
-              <FirstName>Jerry</FirstName>
+              <LastName>Dini</LastName>
+              <FirstName>Paul</FirstName>
             </Name>
             <Address>
               <AddressLine1>100 Mocking Bird ST</AddressLine1>
@@ -146,7 +146,7 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Pharmacy A, INC.</BusinessName>
+          <BusinessName>Gotham Pharmacy, INC.</BusinessName>
           <Address>
             <AddressLine1>1 Some HWY S</AddressLine1>
             <City>Seattle</City>
@@ -167,8 +167,8 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Fonte</LastName>
-              <FirstName>Tricia</FirstName>
+              <LastName>Dini</LastName>
+              <FirstName>Paul</FirstName>
             </Name>
             <Address>
               <AddressLine1>1 Old ST</AddressLine1>
@@ -221,7 +221,7 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Pharmacy A, INC.</BusinessName>
+          <BusinessName>Gotham Pharmacy, INC.</BusinessName>
           <Address>
             <AddressLine1>1 SomeHWY S</AddressLine1>
             <City>Seattle</City>
@@ -242,8 +242,8 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Fonte</LastName>
-              <FirstName>Tricia</FirstName>
+              <LastName>Dini</LastName>
+              <FirstName>Paul</FirstName>
             </Name>
             <Address>
               <AddressLine1>1 Old ST</AddressLine1>

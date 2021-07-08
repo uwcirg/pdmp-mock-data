@@ -71,7 +71,7 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Gotham Pharmacy, INC.</BusinessName>
+          <BusinessName>Smallville Pharmacy, INC.</BusinessName>
           <Address>
             <AddressLine1>1 Atomic HWY S</AddressLine1>
             <City>Seattle</City>
@@ -96,7 +96,7 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
               <FirstName>Jerry</FirstName>
             </Name>
             <Address>
-              <AddressLine1>100 Mocking Bird ST</AddressLine1>
+              <AddressLine1>100 Metropolis ST</AddressLine1>
               <City>Seattle</City>
               <StateProvince>WA</StateProvince>
               <PostalCode>98000</PostalCode>
@@ -146,9 +146,9 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Pharmacy A, INC.</BusinessName>
+          <BusinessName>Smallville Pharmacy, INC.</BusinessName>
           <Address>
-            <AddressLine1>1 Some HWY S</AddressLine1>
+            <AddressLine1>1 Any HWY S</AddressLine1>
             <City>Seattle</City>
             <StateProvince>WA</StateProvince>
             <PostalCode>98000</PostalCode>
@@ -167,11 +167,11 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Fonte</LastName>
-              <FirstName>Tricia</FirstName>
+              <LastName>Siegel</LastName>
+              <FirstName>Jerry</FirstName>
             </Name>
             <Address>
-              <AddressLine1>1 Old ST</AddressLine1>
+              <AddressLine1>1 Metropolis ST</AddressLine1>
               <City>Seattle</City>
               <StateProvince>WA</StateProvince>
               <PostalCode>98000</PostalCode>
@@ -221,9 +221,9 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Pharmacy A, INC.</BusinessName>
+          <BusinessName>Smallville Pharmacy, INC.</BusinessName>
           <Address>
-            <AddressLine1>1 SomeHWY S</AddressLine1>
+            <AddressLine1>1 Any HWY S</AddressLine1>
             <City>Seattle</City>
             <StateProvince>WA</StateProvince>
             <PostalCode>98000</PostalCode>
@@ -242,11 +242,11 @@ NDC for fentanyl pathch 75 mcg/hr has been changed from 47781042747 to 177810427
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Fonte</LastName>
-              <FirstName>Tricia</FirstName>
+              <LastName>Shuster</LastName>
+              <FirstName>Joe</FirstName>
             </Name>
             <Address>
-              <AddressLine1>1 Old ST</AddressLine1>
+              <AddressLine1>1 Metropolis ST</AddressLine1>
               <City>Seattle</City>
               <StateProvince>WA</StateProvince>
               <PostalCode>98000</PostalCode>
