@@ -1,8 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 This one has an excessive # of fentanyl patches 100 instead of 10
-  -->
+-->
 
-<?xml version="1.0" encoding="UTF-8"?>
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" StructuresVersion="20170715" ECLVersion="20170715" DatatypesVersion="20170715" TransactionDomain="SCRIPT" TransactionVersion="20170715" TransportVersion="20170715">
   <Header>
     <To Qualifier="D">di01ar00</To>
