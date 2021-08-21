@@ -34,14 +34,6 @@
           </DateOfBirth>
         </HumanPatient>
       </Patient>
-      <RequestedDates>
-        <StartDate>
-          <Date>2018-01-01</Date>
-        </StartDate>
-        <EndDate>
-          <Date>2021-06-30</Date>
-        </EndDate>
-      </RequestedDates>
     <MedicationDispensed>
         <DrugDescription>TRAMADOL HYDROCHLORIDE 100 MG TABLET, EXTENDED RELEASE</DrugDescription>
         <DrugCoded>
