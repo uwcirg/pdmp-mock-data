@@ -25,7 +25,7 @@
       <Patient>
         <HumanPatient>
           <Name>
-            <LastName>Patient1</LastName>
+            <LastName>Patienta</LastName>
             <FirstName>Validation</FirstName>
           </Name>
           <Gender>M</Gender>
@@ -34,14 +34,6 @@
           </DateOfBirth>
         </HumanPatient>
       </Patient>
-      <RequestedDates>
-        <StartDate>
-          <Date>2018-01-01</Date>
-        </StartDate>
-        <EndDate>
-          <Date>2021-06-30</Date>
-        </EndDate>
-      </RequestedDates>
     <MedicationDispensed>
         <DrugDescription>FENTANYL 50 UG/H PATCH, EXTENDED RELEASE</DrugDescription>
         <DrugCoded>
