@@ -27,7 +27,7 @@
         <HumanPatient>
           <Name>
             <LastName>Val</LastName>
-            <FirstName>Un</FirstName>
+            <FirstName>Huit</FirstName>
           </Name>
           <Gender>M</Gender>
           <DateOfBirth>
@@ -111,10 +111,10 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>acetaminophen 300 MG / butalbital 50 MG Oral Tablet</DrugDescription>
+        <DrugDescription>amphetamine aspartate 2.5 MG [Adderall]</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>68682030601</Code>
+            <Code>57844011001</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
@@ -186,10 +186,10 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>butorphanol 10 MG/ML </DrugDescription>
+        <DrugDescription>amobarbital sodium 500 MG Injection [Amytal]</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>58198004701</Code>
+            <Code>00187430305</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
