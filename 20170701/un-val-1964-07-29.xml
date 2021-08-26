@@ -1010,4 +1010,14 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed>
-
+     <RequestedDates>
+        <StartDate>
+          <Date>2018-01-01</Date>
+        </StartDate>
+        <EndDate>
+          <Date>2021-06-30</Date>
+        </EndDate>
+      </RequestedDates>
+    </RxHistoryResponse>
+  </Body>
+</Message>
