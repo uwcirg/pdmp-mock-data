@@ -261,10 +261,10 @@
         </HistorySource>
       </MedicationDispensed>
        <MedicationDispensed>
-        <DrugDescription>carisoprodol 250 MG Oral Tablet</DrugDescription>
+        <DrugDescription>methyltestosterone 10 MG Oral Tablet [Methitest]</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>35356050130</Code>
+            <Code>00115703701</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>

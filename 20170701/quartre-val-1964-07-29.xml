@@ -111,10 +111,10 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>hydromorphone 32 MG Extended Release Oral Tablet [Exalgo]</DrugDescription>
+        <DrugDescription>flurazepam hydrochloride 30 MG Oral Capsule</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>23635043201</Code>
+            <Code>52959023630</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
