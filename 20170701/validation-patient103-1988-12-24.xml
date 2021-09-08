@@ -1386,10 +1386,10 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>BUTALBITAL 50 MG-ACETAMINOPHEN 300 MG-CAFFEINE 40 MG-CODEINE PHOSPHATE 30 MG CAPSULE</DrugDescription>
+        <DrugDescription>acetaminophen 300 MG / butalbital 50 MG / caffeine 40 MG / codeine phosphate 30 MG Oral Capsule</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>00722702805</Code>
+            <Code>79739702801</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>

@@ -114,7 +114,7 @@
         <DrugDescription>BUTALBITAL 50 MG-ASPIRIN 325 MG-CAFFEINE 40 MG-CODEINE PHOSPHATE 30 MG CAPSULE</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>00722609401</Code>
+            <Code>51991007401</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
@@ -1089,7 +1089,7 @@
         <DrugDescription>ACETAMINOPHEN 300 MG-CODEINE PHOSPHATE 30 MG TABLET</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>50090461001</Code>
+            <Code>00093015001</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>

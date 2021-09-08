@@ -1386,10 +1386,10 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>HYDROCODONE BITARTRATE 5 MG-ACETAMINOPHEN 325 MG TABLET</DrugDescription>
+        <DrugDescription>acetaminophen 325 MG / hydrocodone bitartrate 5 MG Oral Tablet</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>50090212100</Code>
+            <Code>42806011101</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
