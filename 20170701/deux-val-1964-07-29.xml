@@ -35,7 +35,7 @@
           </DateOfBirth>
         </HumanPatient>
       </Patient>
-      <MedicationDispensed>
+    <!--  <MedicationDispensed>
         <DrugDescription>buprenorphine 1.4 MG Tablet</DrugDescription>
         <DrugCoded>
           <ProductCode>
@@ -109,7 +109,7 @@
           <SourceReference>0000000</SourceReference>
           <FillNumber>00</FillNumber>
         </HistorySource>
-      </MedicationDispensed>
+      </MedicationDispensed> -->
       <MedicationDispensed>
         <DrugDescription>acetaminophen 300 MG / butalbital 50 MG Oral Tablet</DrugDescription>
         <DrugCoded>
@@ -185,7 +185,7 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed>
-      <MedicationDispensed>
+    <!--  <MedicationDispensed>
         <DrugDescription>butorphanol 10 MG/ML </DrugDescription>
         <DrugCoded>
           <ProductCode>
@@ -259,7 +259,7 @@
           <SourceReference>0869436</SourceReference>
           <FillNumber>00</FillNumber>
         </HistorySource>
-      </MedicationDispensed>
+      </MedicationDispensed> -->
        <MedicationDispensed>
         <DrugDescription>carisoprodol 250 MG Oral Tablet</DrugDescription>
         <DrugCoded>
@@ -635,7 +635,7 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed>
-       <MedicationDispensed>
+     <!--  <MedicationDispensed>
         <DrugDescription>codeine phosphate 2 MG/ML Oral Solution [Lortuss EX]</DrugDescription>
         <DrugCoded>
           <ProductCode>
@@ -709,7 +709,7 @@
           <SourceReference>0000000</SourceReference>
           <FillNumber>00</FillNumber>
         </HistorySource>
-      </MedicationDispensed>
+      </MedicationDispensed> -->
        <MedicationDispensed>
         <DrugDescription>0.5 ML testosterone enanthate 150 MG/ML [Xyosted]</DrugDescription>
         <DrugCoded>
