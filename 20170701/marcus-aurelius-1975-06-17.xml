@@ -485,7 +485,7 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed> 
-      </MedicationDispensed>
+      <MedicationDispensed>
         <DrugDescription>Fentanyl Transdermal System, 0.075 mg/hr</DrugDescription>
         <DrugCoded>
           <ProductCode>
@@ -560,7 +560,7 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed> 
-      </MedicationDispensed>
+      <MedicationDispensed>
         <DrugDescription>Fentanyl Transdermal System, 0.1 mg/hr</DrugDescription>
         <DrugCoded>
           <ProductCode>
@@ -635,7 +635,7 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed> 
-     </MedicationDispensed>
+     <MedicationDispensed>
         <DrugDescription>OxyCONTIN 30 MG Extended Release Oral Tablet</DrugDescription>
         <DrugCoded>
           <ProductCode>
@@ -710,7 +710,7 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed> 
-      </MedicationDispensed>
+      <MedicationDispensed>
         <DrugDescription>fentanyl 0.1 MG Buccal Tablet</DrugDescription>
         <DrugCoded>
           <ProductCode>
@@ -785,7 +785,7 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed> 
-      </MedicationDispensed>
+      <MedicationDispensed>
         <DrugDescription>Narcan Naloxone hydrochloride 40 mg/ml nasal spray</DrugDescription>
         <DrugCoded>
           <ProductCode>
