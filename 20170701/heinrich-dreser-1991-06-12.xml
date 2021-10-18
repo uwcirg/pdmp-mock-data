@@ -260,28 +260,27 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed>
-
        <MedicationDispensed>
-        <DrugDescription>acetaminophen 300 MG / codeine phosphate 15 MG Oral</DrugDescription>
+        <DrugDescription>acetaminophen 325 MG / oxycodone hydrochloride 2.5 MG Oral Tablet</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>13107005830</Code>
+            <Code>13107004301</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
         <Quantity>
-          <Value>30</Value>
+          <Value>90</Value>
           <CodeListQualifier>87</CodeListQualifier>
           <QuantityUnitOfMeasure>
             <Code>Unspecified</Code>
           </QuantityUnitOfMeasure>
         </Quantity>
-        <DaysSupply>10</DaysSupply>
+        <DaysSupply>45</DaysSupply>
         <WrittenDate>
-          <Date>2020-11-03</Date>
+          <Date>2020-11-07</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-11-03</Date>
+          <Date>2020-11-07</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -336,12 +335,11 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed>
-
        <MedicationDispensed>
-        <DrugDescription>acetaminophen 300 MG / codeine phosphate 15 MG Oral</DrugDescription>
+        <DrugDescription>LORAZEPAM 1 MG TABLET</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>13107005830</Code>
+            <Code>00591024110</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
@@ -352,12 +350,12 @@
             <Code>Unspecified</Code>
           </QuantityUnitOfMeasure>
         </Quantity>
-        <DaysSupply>10</DaysSupply>
+        <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-11-03</Date>
+          <Date>2020-11-07</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-11-03</Date>
+          <Date>2020-11-07</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -412,12 +410,11 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed>
-
        <MedicationDispensed>
-        <DrugDescription>acetaminophen 300 MG / codeine phosphate 15 MG Oral</DrugDescription>
+        <DrugDescription>ZOLPIDEM TARTRATE 10 MG TABLET</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>13107005830</Code>
+            <Code>16714062202</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
@@ -428,12 +425,12 @@
             <Code>Unspecified</Code>
           </QuantityUnitOfMeasure>
         </Quantity>
-        <DaysSupply>10</DaysSupply>
+        <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-11-03</Date>
+          <Date>2020-10-03</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-11-03</Date>
+          <Date>2020-10-03</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -488,7 +485,6 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed>
-      
       <RequestedDates>
         <StartDate>
           <Date>2018-01-01</Date>
