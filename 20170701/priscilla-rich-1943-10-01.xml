@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-This one has an excessive # of fentanyl patches 100 instead of 10
--->
+
 
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" StructuresVersion="20170715" ECLVersion="20170715" DatatypesVersion="20170715" TransactionDomain="SCRIPT" TransactionVersion="20170715" TransportVersion="20170715">
   <Header>
@@ -48,7 +46,7 @@ This one has an excessive # of fentanyl patches 100 instead of 10
           </ProductCode>
         </DrugCoded>
         <Quantity>
-          <Value>100</Value>
+          <Value>10</Value>
           <CodeListQualifier>87</CodeListQualifier>
           <QuantityUnitOfMeasure>
             <Code>Unspecified</Code>
@@ -56,10 +54,10 @@ This one has an excessive # of fentanyl patches 100 instead of 10
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2018-01-10</Date>
+          <Date>2020-01-10</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2018-4-15</Date>
+          <Date>2020-04-15</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
