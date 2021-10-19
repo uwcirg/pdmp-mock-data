@@ -52,10 +52,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2008-01-10</Date>
+          <Date>2020-01-10</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2008-4-15</Date>
+          <Date>2020-4-15</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -127,10 +127,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2018-12-06</Date>
+          <Date>2019-12-06</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2018-12-15</Date>
+          <Date>2019-12-15</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -202,10 +202,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2018-08-14</Date>
+          <Date>2021-08-14</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2018-12-15</Date>
+          <Date>2021-12-15</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -272,6 +272,4 @@
   </Body>
 </Message>
 
-<!--
-Rx and dispense date are 10 years old
-  -->
+

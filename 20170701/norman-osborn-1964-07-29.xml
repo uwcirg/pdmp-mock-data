@@ -48,7 +48,7 @@ Value for fentanyl pathch 75 mcg/hr and HYDROCODONE-ACETAMIN 7.5-325 have been c
           </ProductCode>
         </DrugCoded>
         <Quantity>
-          <Value>0</Value>
+          <Value>10</Value>
           <CodeListQualifier>87</CodeListQualifier>
           <QuantityUnitOfMeasure>
             <Code>Unspecified</Code>
@@ -198,7 +198,7 @@ Value for fentanyl pathch 75 mcg/hr and HYDROCODONE-ACETAMIN 7.5-325 have been c
           </ProductCode>
         </DrugCoded>
         <Quantity>
-          <Value>0</Value>
+          <Value>180</Value>
           <CodeListQualifier>87</CodeListQualifier>
           <QuantityUnitOfMeasure>
             <Code>Unspecified</Code>
