@@ -26,36 +26,36 @@
       <Patient>
         <HumanPatient>
           <Name>
-            <LastName>Kingsley</LastName>
-            <FirstName>Roderick</FirstName>
+            <LastName>Freud</LastName>
+            <FirstName>Sigmund</FirstName>
           </Name>
-          <Gender>F</Gender>
+          <Gender>M</Gender>
           <DateOfBirth>
-            <Date>1983-03-04</Date>
+            <Date>1956-05-6</Date>
           </DateOfBirth>
         </HumanPatient>
       </Patient>
       <MedicationDispensed>
-        <DrugDescription>FENTANYL 75 MCG/HR PATCH</DrugDescription>
+        <DrugDescription>Adderall 20 MG Oral Tablet</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>47781042747</Code>
+            <Code>57844012001</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
         <Quantity>
-          <Value>10</Value>
+          <Value>90</Value>
           <CodeListQualifier>87</CodeListQualifier>
           <QuantityUnitOfMeasure>
             <Code>Unspecified</Code>
           </QuantityUnitOfMeasure>
         </Quantity>
-        <DaysSupply>30</DaysSupply>
+        <DaysSupply>90</DaysSupply>
         <WrittenDate>
-          <Date>2018-01-10</Date>
+          <Date>2021-10-21</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2018-4-15</Date>
+          <Date>2021-10-21</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -67,7 +67,232 @@
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Central Park Pharmacy, INC.</BusinessName>
+          <BusinessName>Czech Pharmacy</BusinessName>
+          <Address>
+            <AddressLine1>1 Republic HWY S</AddressLine1>
+            <City>Seattle</City>
+            <StateProvince>WA</StateProvince>
+            <PostalCode>98000</PostalCode>
+          </Address>
+          <CommunicationNumbers>
+            <PrimaryTelephone>
+              <Number>2061009000</Number>
+            </PrimaryTelephone>
+          </CommunicationNumbers>
+        </Pharmacy>
+        <Prescriber>
+          <NonVeterinarian>
+            <Identification>
+              <DEANumber>XX0000000</DEANumber>
+              <NPI>0</NPI>
+              <MutuallyDefined>XX0000000</MutuallyDefined>
+            </Identification>
+            <Name>
+              <LastName>Meynert</LastName>
+              <FirstName>Theodore</FirstName>
+            </Name>
+            <Address>
+              <AddressLine1>100 Metropolis ST</AddressLine1>
+              <City>Seattle</City>
+              <StateProvince>WA</StateProvince>
+              <PostalCode>98000</PostalCode>
+            </Address>
+          </NonVeterinarian>
+        </Prescriber>
+        <HistorySource>
+          <Source>
+            <Reference>
+              <DEANumber>XX0000000</DEANumber>
+            </Reference>
+            <SourceQualifier>P2</SourceQualifier>
+          </Source>
+          <SourceReference>0000000</SourceReference>
+          <FillNumber>00</FillNumber>
+        </HistorySource>
+      </MedicationDispensed>
+      <MedicationDispensed>
+        <DrugDescription>amphetamine 15.7 MG Extended Release Oral Tablet [Adzenys]</DrugDescription>
+        <DrugCoded>
+          <ProductCode>
+            <Code>70165002530</Code>
+            <Qualifier>ND</Qualifier>
+          </ProductCode>
+        </DrugCoded>
+        <Quantity>
+          <Value>30</Value>
+          <CodeListQualifier>87</CodeListQualifier>
+          <QuantityUnitOfMeasure>
+            <Code>Unspecified</Code>
+          </QuantityUnitOfMeasure>
+        </Quantity>
+        <DaysSupply>30</DaysSupply>
+        <WrittenDate>
+          <Date>2021-09-20</Date>
+        </WrittenDate>
+        <LastFillDate>
+          <Date>2021-09-20</Date>
+        </LastFillDate>
+        <Substitutions>0</Substitutions>
+        <Note>04</Note>
+        <RefillsRemaining>0</RefillsRemaining>
+        <Pharmacy>
+          <Identification>
+            <NCPDPID>0</NCPDPID>
+            <DEANumber>XX0000000</DEANumber>
+            <NPI>0</NPI>
+            <MutuallyDefined>XX0000000</MutuallyDefined>
+          </Identification>
+          <BusinessName>Vienna Pharmacy</BusinessName>
+          <Address>
+            <AddressLine1>1 Any HWY S</AddressLine1>
+            <City>Seattle</City>
+            <StateProvince>WA</StateProvince>
+            <PostalCode>98000</PostalCode>
+          </Address>
+          <CommunicationNumbers>
+            <PrimaryTelephone>
+              <Number>2061009000</Number>
+            </PrimaryTelephone>
+          </CommunicationNumbers>
+        </Pharmacy>
+        <Prescriber>
+          <NonVeterinarian>
+            <Identification>
+              <DEANumber>XX0000000</DEANumber>
+              <NPI>0</NPI>
+              <MutuallyDefined>XX0000000</MutuallyDefined>
+            </Identification>
+            <Name>
+              <LastName>Meynert</LastName>
+              <FirstName>Theodore</FirstName>
+            </Name>
+            <Address>
+              <AddressLine1>1 Metropolis ST</AddressLine1>
+              <City>Seattle</City>
+              <StateProvince>WA</StateProvince>
+              <PostalCode>98000</PostalCode>
+            </Address>
+          </NonVeterinarian>
+        </Prescriber>
+        <HistorySource>
+          <Source>
+            <Reference>
+              <DEANumber>XX0000000</DEANumber>
+            </Reference>
+            <SourceQualifier>P2</SourceQualifier>
+          </Source>
+          <SourceReference>0000000</SourceReference>
+          <FillNumber>00</FillNumber>
+        </HistorySource>
+      </MedicationDispensed>
+      <MedicationDispensed>
+        <DrugDescription>Regimex 25 MG Oral Tablet</DrugDescription>
+        <DrugCoded>
+          <ProductCode>
+            <Code>66992039910</Code>
+            <Qualifier>ND</Qualifier>
+          </ProductCode>
+        </DrugCoded>
+        <Quantity>
+          <Value>60</Value>
+          <CodeListQualifier>87</CodeListQualifier>
+          <QuantityUnitOfMeasure>
+            <Code>Unspecified</Code>
+          </QuantityUnitOfMeasure>
+        </Quantity>
+        <DaysSupply>60</DaysSupply>
+        <WrittenDate>
+          <Date>2021-07-20</Date>
+        </WrittenDate>
+        <LastFillDate>
+          <Date>2021-07-20</Date>
+        </LastFillDate>
+        <Substitutions>0</Substitutions>
+        <Note>04</Note>
+        <RefillsRemaining>0</RefillsRemaining>
+        <Pharmacy>
+          <Identification>
+            <NCPDPID>0</NCPDPID>
+            <DEANumber>XX0000000</DEANumber>
+            <NPI>0</NPI>
+            <MutuallyDefined>XX0000000</MutuallyDefined>
+          </Identification>
+          <BusinessName>Vienna Pharmacy</BusinessName>
+          <Address>
+            <AddressLine1>1 Any HWY S</AddressLine1>
+            <City>Seattle</City>
+            <StateProvince>WA</StateProvince>
+            <PostalCode>98000</PostalCode>
+          </Address>
+          <CommunicationNumbers>
+            <PrimaryTelephone>
+              <Number>2061009000</Number>
+            </PrimaryTelephone>
+          </CommunicationNumbers>
+        </Pharmacy>
+        <Prescriber>
+          <NonVeterinarian>
+            <Identification>
+              <DEANumber>XX0000000</DEANumber>
+              <NPI>0</NPI>
+              <MutuallyDefined>XX0000000</MutuallyDefined>
+            </Identification>
+            <Name>
+              <LastName>Charcot</LastName>
+              <FirstName>Jean-Martin</FirstName>
+            </Name>
+            <Address>
+              <AddressLine1>1 Metropolis ST</AddressLine1>
+              <City>Seattle</City>
+              <StateProvince>WA</StateProvince>
+              <PostalCode>98000</PostalCode>
+            </Address>
+          </NonVeterinarian>
+        </Prescriber>
+        <HistorySource>
+          <Source>
+            <Reference>
+              <DEANumber>XX0000000</DEANumber>
+            </Reference>
+            <SourceQualifier>P2</SourceQualifier>
+          </Source>
+          <SourceReference>0869436</SourceReference>
+          <FillNumber>00</FillNumber>
+        </HistorySource>
+      </MedicationDispensed>
+       <MedicationDispensed>
+        <DrugDescription>armodafinil 150 MG Oral Tablet [Nuvigil]</DrugDescription>
+        <DrugCoded>
+          <ProductCode>
+            <Code>63459021530	</Code>
+            <Qualifier>ND</Qualifier>
+          </ProductCode>
+        </DrugCoded>
+        <Quantity>
+          <Value>30</Value>
+          <CodeListQualifier>87</CodeListQualifier>
+          <QuantityUnitOfMeasure>
+            <Code>Unspecified</Code>
+          </QuantityUnitOfMeasure>
+        </Quantity>
+        <DaysSupply>30</DaysSupply>
+        <WrittenDate>
+          <Date>2021-06-18</Date>
+        </WrittenDate>
+        <LastFillDate>
+          <Date>2021-06-19</Date>
+        </LastFillDate>
+        <Substitutions>0</Substitutions>
+        <Note>04</Note>
+        <RefillsRemaining>0</RefillsRemaining>
+        <Pharmacy>
+          <Identification>
+            <NCPDPID>0</NCPDPID>
+            <DEANumber>XX0000000</DEANumber>
+            <NPI>0</NPI>
+            <MutuallyDefined>XX0000000</MutuallyDefined>
+          </Identification>
+          <BusinessName>London Pharmacy</BusinessName>
           <Address>
             <AddressLine1>1 Atomic HWY S</AddressLine1>
             <City>Seattle</City>
@@ -88,11 +313,11 @@
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Stern</LastName>
-              <FirstName>Roger</FirstName>
+              <LastName>Fliess</LastName>
+              <FirstName>Wilhelm</FirstName>
             </Name>
             <Address>
-              <AddressLine1>100 Mocking Bird ST</AddressLine1>
+              <AddressLine1>100 Metropolis ST</AddressLine1>
               <City>Seattle</City>
               <StateProvince>WA</StateProvince>
               <PostalCode>98000</PostalCode>
@@ -110,27 +335,27 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed>
-      <MedicationDispensed>
-        <DrugDescription>ZOLPIDEM TARTRATE 10 MG TABLET</DrugDescription>
+       <MedicationDispensed>
+        <DrugDescription>modafinil 200 MG Oral Tablet [Provigil] </DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>13668000801</Code>
+            <Code>63459020130</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
         <Quantity>
-          <Value>30</Value>
+          <Value>60</Value>
           <CodeListQualifier>87</CodeListQualifier>
           <QuantityUnitOfMeasure>
             <Code>Unspecified</Code>
           </QuantityUnitOfMeasure>
         </Quantity>
-        <DaysSupply>30</DaysSupply>
+        <DaysSupply>60</DaysSupply>
         <WrittenDate>
-          <Date>2018-12-06</Date>
+          <Date>2021-04-15</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2018-12-15</Date>
+          <Date>2021-04-15</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -142,9 +367,9 @@
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Central Park Pharmacy, INC.</BusinessName>
+          <BusinessName>Central Manhattan Pharmacy, INC.</BusinessName>
           <Address>
-            <AddressLine1>1 Some HWY S</AddressLine1>
+            <AddressLine1>1 Atomic HWY S</AddressLine1>
             <City>Seattle</City>
             <StateProvince>WA</StateProvince>
             <PostalCode>98000</PostalCode>
@@ -163,11 +388,11 @@
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Stern</LastName>
-              <FirstName>Roger</FirstName>
+              <LastName>Graf</LastName>
+              <FirstName>Max</FirstName>
             </Name>
             <Address>
-              <AddressLine1>1 Old ST</AddressLine1>
+              <AddressLine1>100 Metropolis ST</AddressLine1>
               <City>Seattle</City>
               <StateProvince>WA</StateProvince>
               <PostalCode>98000</PostalCode>
@@ -185,82 +410,7 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed>
-      <MedicationDispensed>
-        <DrugDescription>HYDROCODONE-ACETAMIN 7.5-325</DrugDescription>
-        <DrugCoded>
-          <ProductCode>
-            <Code>65162011510</Code>
-            <Qualifier>ND</Qualifier>
-          </ProductCode>
-        </DrugCoded>
-        <Quantity>
-          <Value>240</Value>
-          <CodeListQualifier>87</CodeListQualifier>
-          <QuantityUnitOfMeasure>
-            <Code>Unspecified</Code>
-          </QuantityUnitOfMeasure>
-        </Quantity>
-        <DaysSupply>40</DaysSupply>
-        <WrittenDate>
-          <Date>2021-08-14</Date>
-        </WrittenDate>
-        <LastFillDate>
-          <Date>2021-12-15</Date>
-        </LastFillDate>
-        <Substitutions>0</Substitutions>
-        <Note>04</Note>
-        <RefillsRemaining>0</RefillsRemaining>
-        <Pharmacy>
-          <Identification>
-            <NCPDPID>0</NCPDPID>
-            <DEANumber>XX0000000</DEANumber>
-            <NPI>0</NPI>
-            <MutuallyDefined>XX0000000</MutuallyDefined>
-          </Identification>
-          <BusinessName>Central Park Pharmacy, INC.</BusinessName>
-          <Address>
-            <AddressLine1>1 SomeHWY S</AddressLine1>
-            <City>Seattle</City>
-            <StateProvince>WA</StateProvince>
-            <PostalCode>98000</PostalCode>
-          </Address>
-          <CommunicationNumbers>
-            <PrimaryTelephone>
-              <Number>2061009000</Number>
-            </PrimaryTelephone>
-          </CommunicationNumbers>
-        </Pharmacy>
-        <Prescriber>
-          <NonVeterinarian>
-            <Identification>
-              <DEANumber>XX0000000</DEANumber>
-              <NPI>0</NPI>
-              <MutuallyDefined>XX0000000</MutuallyDefined>
-            </Identification>
-            <Name>
-              <LastName>Stern</LastName>
-              <FirstName>Roger</FirstName>
-            </Name>
-            <Address>
-              <AddressLine1>1 Old ST</AddressLine1>
-              <City>Seattle</City>
-              <StateProvince>WA</StateProvince>
-              <PostalCode>98000</PostalCode>
-            </Address>
-          </NonVeterinarian>
-        </Prescriber>
-        <HistorySource>
-          <Source>
-            <Reference>
-              <DEANumber>XX0000000</DEANumber>
-            </Reference>
-            <SourceQualifier>P2</SourceQualifier>
-          </Source>
-          <SourceReference>0869436</SourceReference>
-          <FillNumber>00</FillNumber>
-        </HistorySource>
-      </MedicationDispensed>
-      <RequestedDates>
+     <RequestedDates>
         <StartDate>
           <Date>2018-01-01</Date>
         </StartDate>
@@ -271,7 +421,3 @@
     </RxHistoryResponse>
   </Body>
 </Message>
-
-<!--
-number of days dispensed is 0 for both opioids
-  -->
