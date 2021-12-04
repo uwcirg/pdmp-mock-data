@@ -261,7 +261,7 @@
         </HistorySource>
       </MedicationDispensed>
            <MedicationDispensed>
-        <DrugDescription>Fentanyl Transdermal System, 0.025 mg/hr </DrugDescription>
+        <DrugDescription>Fentanyl Transdermal System, 0.025 mg/hr</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>61919060205</Code>

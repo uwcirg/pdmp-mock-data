@@ -186,7 +186,7 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>butorphanol 10 MG/ML </DrugDescription>
+        <DrugDescription>butorphanol 10 MG/ML</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>58198004701</Code>

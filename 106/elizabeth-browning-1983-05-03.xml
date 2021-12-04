@@ -174,7 +174,7 @@ Total MME should be:
 			</MedicationDispensed>
 
 			<MedicationDispensed>
-				<DrugDescription>Suboxone - Buprenorphine/ naloxone sublingual film 2/.5 MG </DrugDescription>
+				<DrugDescription>Suboxone - Buprenorphine/ naloxone sublingual film 2/.5 MG</DrugDescription>
 				<DrugCoded>
 					<ProductCode>00378876593</ProductCode>
 					<ProductCodeQualifier>ND</ProductCodeQualifier>
@@ -391,7 +391,7 @@ Total MME should be:
 
 
 					<MedicationDispensed>
-				<DrugDescription>Methadone 40 mg diskette </DrugDescription>
+				<DrugDescription>Methadone 40 mg diskette</DrugDescription>
 				<DrugCoded>
 					<ProductCode>00054453825</ProductCode>
 					<ProductCodeQualifier>ND</ProductCodeQualifier>
