@@ -16,3 +16,15 @@ jobs:
       - name: Lint XML
         # use `xargs` instead of `find exec` so non-0 exit codes are correctly returned
         run: find 106/ 20170701/ -name "*.xml" ! -name '*invalid*' ! -name '*error*' | xargs xmllint --noout
+
+      - name: Check for extra whitespace at the start of elements
+        # use `xargs` instead of `find exec` so non-0 exit codes are correctly returned
+        # invert exit code; grep returns 0 if match (linting issue) found
+        run: |
+          ! find 106/ 20170701/ -name "*.xml" ! -name '*invalid*' ! -name '*error*' | xargs grep -P ">\s\w+"
+
+      - name: Check for extra whitespace at the end of elements
+        # use `xargs` instead of `find exec` so non-0 exit codes are correctly returned
+        # invert exit code; grep returns 0 if match (linting issue) found
+        run: |
+          ! find 106/ 20170701/ -name "*.xml" ! -name '*invalid*' ! -name '*error*' | xargs grep -P "\w\s+</"
