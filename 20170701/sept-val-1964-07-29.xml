@@ -561,7 +561,7 @@
         </HistorySource>
       </MedicationDispensed>
        <MedicationDispensed>
-        <DrugDescription>	0.5 ML testosterone enanthate 150 MG/ML [Xyosted] </DrugDescription>
+        <DrugDescription>0.5 ML testosterone enanthate 150 MG/ML [Xyosted] </DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>54436027504</Code>
@@ -861,7 +861,7 @@
         </HistorySource>
       </MedicationDispensed>
        <MedicationDispensed>
-        <DrugDescription>	diazepam 10 MG Oral Tablet [Valium]</DrugDescription>
+        <DrugDescription>diazepam 10 MG Oral Tablet [Valium]</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>00140000635</Code>
