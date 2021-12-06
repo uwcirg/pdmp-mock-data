@@ -1,0 +1,18 @@
+# continuous integration
+# run tests for repo
+---
+name: Test
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v1
+
+      - name: Install xmllint
+        run: sudo apt-get install libxml2-utils
+
+      - name: Lint XML
+        # use `xargs` instead of `find exec` so non-0 exit codes are correctly returned
+        run: find 106/ 20170701/ -name "*.xml" ! -name '*invalid*' ! -name '*error*' | xargs xmllint --noout
