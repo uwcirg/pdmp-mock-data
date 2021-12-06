@@ -14,17 +14,17 @@ jobs:
         run: sudo apt-get install libxml2-utils
 
       - name: Lint XML
-        # use `xargs` instead of `find exec` so non-0 exit codes are correctly returned
+        # use `xargs` instead of `find -exec` so non-0 exit codes are correctly returned
         run: find 106/ 20170701/ -name "*.xml" ! -name '*invalid*' ! -name '*error*' | xargs xmllint --noout
 
       - name: Check for extra whitespace at the start of elements
-        # use `xargs` instead of `find exec` so non-0 exit codes are correctly returned
-        # invert exit code; grep returns 0 if match (linting issue) found
+        # invert exit code; grep normally returns 0 if match (linting issue) found
+        # use `xargs` instead of `find -exec` so non-0 exit codes are correctly returned
         run: |
-          ! find 106/ 20170701/ -name "*.xml" ! -name '*invalid*' ! -name '*error*' | xargs grep -P ">\s\w+"
+          ! find 106/ 20170701/ -name "*.xml" ! -name '*invalid*' ! -name '*error*' | xargs grep --perl-regexp ">\s\w+"
 
       - name: Check for extra whitespace at the end of elements
-        # use `xargs` instead of `find exec` so non-0 exit codes are correctly returned
-        # invert exit code; grep returns 0 if match (linting issue) found
+        # invert exit code; grep normally returns 0 if match (linting issue) found
+        # use `xargs` instead of `find -exec` so non-0 exit codes are correctly returned
         run: |
-          ! find 106/ 20170701/ -name "*.xml" ! -name '*invalid*' ! -name '*error*' | xargs grep -P "\w\s+</"
+          ! find 106/ 20170701/ -name "*.xml" ! -name '*invalid*' ! -name '*error*' | xargs grep --perl-regexp "\w\s+</"
