@@ -486,7 +486,7 @@
         </HistorySource>
       </MedicationDispensed>
             <MedicationDispensed>
-        <DrugDescription>atropine sulfate 0.025 MG / diphenoxylate hydrochloride 2.5 MG Oral Tablet [Lomotil] </DrugDescription>
+        <DrugDescription>atropine sulfate 0.025 MG / diphenoxylate hydrochloride 2.5 MG Oral Tablet [Lomotil]</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>55289023010</Code>
@@ -935,13 +935,12 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed>
-
       <RequestedDates>
         <StartDate>
           <Date>2018-01-01</Date>
         </StartDate>
         <EndDate>
-          <Date>2021-06-30</Date>
+          <Date>2021-12-30</Date>
         </EndDate>
       </RequestedDates>
     </RxHistoryResponse>
