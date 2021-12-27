@@ -186,7 +186,7 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>butorphanol 10 MG/ML </DrugDescription>
+        <DrugDescription>butorphanol 10 MG/ML</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>58198004701</Code>
@@ -411,7 +411,7 @@
         </HistorySource>
       </MedicationDispensed>
        <MedicationDispensed>
-        <DrugDescription>	lasmiditan 100 MG Oral Tablet [Reyvow]</DrugDescription>
+        <DrugDescription>lasmiditan 100 MG Oral Tablet [Reyvow]</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>00002449161</Code>
@@ -561,7 +561,7 @@
         </HistorySource>
       </MedicationDispensed>
        <MedicationDispensed>
-        <DrugDescription>	levorphanol tartrate 2 MG Oral Tablet</DrugDescription>
+        <DrugDescription>levorphanol tartrate 2 MG Oral Tablet</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>69543041710</Code>
@@ -714,7 +714,7 @@
         <DrugDescription>lorazepam 1 MG Oral Tablet [Ativan]</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>66267129500	</Code>
+            <Code>66267129500</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>

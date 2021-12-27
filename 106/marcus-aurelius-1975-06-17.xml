@@ -230,7 +230,7 @@ Total MME should be:
 			<MedicationDispensed>
 				<DrugDescription>MS Cotin 30 MG Oral Tablet</DrugDescription>
 				<DrugCoded>
-					<ProductCode>55700036760 </ProductCode>
+					<ProductCode>55700036760</ProductCode>
 					<ProductCodeQualifier>ND</ProductCodeQualifier>
 				</DrugCoded>
 				<Quantity>
@@ -283,7 +283,7 @@ Total MME should be:
 
 
             <MedicationDispensed>
-				<DrugDescription>Fentanyl Transdermal System, 0.025 mg/hr </DrugDescription>
+				<DrugDescription>Fentanyl Transdermal System, 0.025 mg/hr</DrugDescription>
 				<DrugCoded>
 					<ProductCode>61919060205</ProductCode>
 					<ProductCodeQualifier>ND</ProductCodeQualifier>
@@ -337,7 +337,7 @@ Total MME should be:
 			</MedicationDispensed>
 
             <MedicationDispensed>
-				<DrugDescription>Fentanyl Transdermal System, 0.05 mg/hr </DrugDescription>
+				<DrugDescription>Fentanyl Transdermal System, 0.05 mg/hr</DrugDescription>
 				<DrugCoded>
 					<ProductCode>60505700700</ProductCode>
 					<ProductCodeQualifier>ND</ProductCodeQualifier>
@@ -391,7 +391,7 @@ Total MME should be:
 			</MedicationDispensed>
 
             <MedicationDispensed>
-				<DrugDescription>Fentanyl Transdermal System, 0.075 mg/hr </DrugDescription>
+				<DrugDescription>Fentanyl Transdermal System, 0.075 mg/hr</DrugDescription>
 				<DrugCoded>
 					<ProductCode>00378912316</ProductCode>
 					<ProductCodeQualifier>ND</ProductCodeQualifier>
@@ -446,7 +446,7 @@ Total MME should be:
 
 	
 			<MedicationDispensed>
-				<DrugDescription>Fentanyl Transdermal System, 0.1 mg/hr </DrugDescription>
+				<DrugDescription>Fentanyl Transdermal System, 0.1 mg/hr</DrugDescription>
 				<DrugCoded>
 					<ProductCode>00378912416</ProductCode>
 					<ProductCodeQualifier>ND</ProductCodeQualifier>

@@ -124,7 +124,7 @@ Total MME should be:
 				</HistorySource>
 			</MedicationDispensed>
 			<MedicationDispensed>
-				<DrugDescription>24 HR hydromorphone hydrochloride 12 MG Extended Release Oral Tablet </DrugDescription>
+				<DrugDescription>24 HR hydromorphone hydrochloride 12 MG Extended Release Oral Tablet</DrugDescription>
 				<DrugCoded>
 					<ProductCode>43602026730</ProductCode>
 					<ProductCodeQualifier>ND</ProductCodeQualifier>

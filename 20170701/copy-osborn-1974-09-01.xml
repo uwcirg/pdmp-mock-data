@@ -636,7 +636,7 @@
         </HistorySource>
       </MedicationDispensed>
        <MedicationDispensed>
-        <DrugDescription>	1 ML meperidine hydrochloride 100 MG/ML Prefilled Syringe [Demerol]</DrugDescription>
+        <DrugDescription>1 ML meperidine hydrochloride 100 MG/ML Prefilled Syringe [Demerol]</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>00409137711</Code>

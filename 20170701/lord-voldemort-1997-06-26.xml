@@ -264,7 +264,7 @@
         <DrugDescription>carisoprodol 350 MG Oral Tablet [Vanadom]</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>69036092035	</Code>
+            <Code>69036092035</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
@@ -336,7 +336,7 @@
         </HistorySource>
       </MedicationDispensed>
        <MedicationDispensed>
-        <DrugDescription>	dronabinol 10 MG Oral Capsule [Marinol]</DrugDescription>
+        <DrugDescription>dronabinol 10 MG Oral Capsule [Marinol]</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>53097057360</Code>

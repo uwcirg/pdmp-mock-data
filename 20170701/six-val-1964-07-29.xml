@@ -639,7 +639,7 @@
         <DrugDescription>pregabalin 20 MG/ML Oral Solution [Lyrica]</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>	00071102001</Code>
+            <Code>00071102001</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
@@ -786,7 +786,7 @@
         </HistorySource>
       </MedicationDispensed>
        <MedicationDispensed>
-        <DrugDescription>	remifentanil 1 MG Injection [Ultiva]</DrugDescription>
+        <DrugDescription>remifentanil 1 MG Injection [Ultiva]</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>67457019803</Code>
@@ -861,7 +861,7 @@
         </HistorySource>
       </MedicationDispensed>
        <MedicationDispensed>
-        <DrugDescription>	remimazolam 20 MG Injection [Byfavo]</DrugDescription>
+        <DrugDescription>remimazolam 20 MG Injection [Byfavo]</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>71390001111</Code>
@@ -936,7 +936,7 @@
         </HistorySource>
       </MedicationDispensed>
        <MedicationDispensed>
-        <DrugDescription>	methylphenidate hydrochloride 20 MG Oral Tablet [Ritalin]</DrugDescription>
+        <DrugDescription>methylphenidate hydrochloride 20 MG Oral Tablet [Ritalin]</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>00078044105</Code>
