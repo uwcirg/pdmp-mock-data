@@ -26,25 +26,25 @@
       <Patient>
         <HumanPatient>
           <Name>
-            <LastName>Val</LastName>
-            <FirstName>Trois</FirstName>
+            <LastName>Mallon</LastName>
+            <FirstName>Mary</FirstName>
           </Name>
-          <Gender>M</Gender>
+          <Gender>F</Gender>
           <DateOfBirth>
-            <Date>1964-07-29</Date>
+            <Date>1968-09-23</Date>
           </DateOfBirth>
         </HumanPatient>
       </Patient>
       <MedicationDispensed>
-        <DrugDescription>dextroamphetamine sulfate 5 MG Oral Tablet [Zenzedi]</DrugDescription>
+        <DrugDescription>atropine sulfate 0.025 MG / diphenoxylate hydrochloride 2.5 MG Oral Tablet [Lonox]</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>24338085103</Code>
+            <Code>6900781126210</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
         <Quantity>
-          <Value>30</Value>
+          <Value>120</Value>
           <CodeListQualifier>87</CodeListQualifier>
           <QuantityUnitOfMeasure>
             <Code>Unspecified</Code>
@@ -52,10 +52,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2019-01-10</Date>
+          <Date>2021-05-04</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-01-10</Date>
+          <Date>2021-05-04</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -67,7 +67,7 @@
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Central Manhattan Pharmacy, INC.</BusinessName>
+          <BusinessName>Mamaroneck Pharmacy, INC.</BusinessName>
           <Address>
             <AddressLine1>1 Atomic HWY S</AddressLine1>
             <City>Seattle</City>
@@ -88,11 +88,11 @@
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Lee</LastName>
-              <FirstName>Stan</FirstName>
+              <LastName>Gilsey</LastName>
+              <FirstName>Trevor</FirstName>
             </Name>
             <Address>
-              <AddressLine1>100 Metropolis ST</AddressLine1>
+              <AddressLine1>100 Mocking Bird ST</AddressLine1>
               <City>Seattle</City>
               <StateProvince>WA</StateProvince>
               <PostalCode>98000</PostalCode>
@@ -111,15 +111,90 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>diazepam 2 MG Oral Tablet [Valium]</DrugDescription>
+        <DrugDescription>MORPHINE SULFATE IR 15 MG TAB</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>00140000401</Code>
+            <Code>00054023525</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
         <Quantity>
-          <Value>30</Value>
+          <Value>60</Value>
+          <CodeListQualifier>87</CodeListQualifier>
+          <QuantityUnitOfMeasure>
+            <Code>Unspecified</Code>
+          </QuantityUnitOfMeasure>
+        </Quantity>
+        <DaysSupply>60</DaysSupply>
+        <WrittenDate>
+          <Date>2021-05-04</Date>
+        </WrittenDate>
+        <LastFillDate>
+          <Date>22021-05-04</Date>
+        </LastFillDate>
+        <Substitutions>0</Substitutions>
+        <Note>04</Note>
+        <RefillsRemaining>0</RefillsRemaining>
+        <Pharmacy>
+          <Identification>
+            <NCPDPID>0</NCPDPID>
+            <DEANumber>XX0000000</DEANumber>
+            <NPI>0</NPI>
+            <MutuallyDefined>XX0000000</MutuallyDefined>
+          </Identification>
+          <BusinessName>Park Ave Pharmacy, INC.</BusinessName>
+          <Address>
+            <AddressLine1>1 Some HWY S</AddressLine1>
+            <City>Seattle</City>
+            <StateProvince>WA</StateProvince>
+            <PostalCode>98000</PostalCode>
+          </Address>
+          <CommunicationNumbers>
+            <PrimaryTelephone>
+              <Number>2061009000</Number>
+            </PrimaryTelephone>
+          </CommunicationNumbers>
+        </Pharmacy>
+        <Prescriber>
+          <NonVeterinarian>
+            <Identification>
+              <DEANumber>XX0000000</DEANumber>
+              <NPI>0</NPI>
+              <MutuallyDefined>XX0000000</MutuallyDefined>
+            </Identification>
+            <Name>
+              <LastName>Bowen</LastName>
+              <FirstName>Walter</FirstName>
+            </Name>
+            <Address>
+              <AddressLine1>1 Old ST</AddressLine1>
+              <City>Seattle</City>
+              <StateProvince>WA</StateProvince>
+              <PostalCode>98000</PostalCode>
+            </Address>
+          </NonVeterinarian>
+        </Prescriber>
+        <HistorySource>
+          <Source>
+            <Reference>
+              <DEANumber>XX0000000</DEANumber>
+            </Reference>
+            <SourceQualifier>P2</SourceQualifier>
+          </Source>
+          <SourceReference>0000000</SourceReference>
+          <FillNumber>00</FillNumber>
+        </HistorySource>
+      </MedicationDispensed>
+      <MedicationDispensed>
+        <DrugDescription>DIPHENOXYLATE-ATROP 2.5-0.025</DrugDescription>
+        <DrugCoded>
+          <ProductCode>
+            <Code>00406123601</Code>
+            <Qualifier>ND</Qualifier>
+          </ProductCode>
+        </DrugCoded>
+        <Quantity>
+          <Value>120</Value>
           <CodeListQualifier>87</CodeListQualifier>
           <QuantityUnitOfMeasure>
             <Code>Unspecified</Code>
@@ -127,10 +202,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-12-06</Date>
+          <Date>2021-05-04</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-12-06</Date>
+          <Date>2021-05-04</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -142,9 +217,9 @@
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Central Manhattan, INC.</BusinessName>
+          <BusinessName>Old Pharmacy, INC.</BusinessName>
           <Address>
-            <AddressLine1>1 Any HWY S</AddressLine1>
+            <AddressLine1>1 SomeHWY S</AddressLine1>
             <City>Seattle</City>
             <StateProvince>WA</StateProvince>
             <PostalCode>98000</PostalCode>
@@ -163,86 +238,11 @@
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Lee</LastName>
-              <FirstName>Stan</FirstName>
+              <LastName>Bowen</LastName>
+              <FirstName>Walter</FirstName>
             </Name>
             <Address>
-              <AddressLine1>1 Metropolis ST</AddressLine1>
-              <City>Seattle</City>
-              <StateProvince>WA</StateProvince>
-              <PostalCode>98000</PostalCode>
-            </Address>
-          </NonVeterinarian>
-        </Prescriber>
-        <HistorySource>
-          <Source>
-            <Reference>
-              <DEANumber>XX0000000</DEANumber>
-            </Reference>
-            <SourceQualifier>P2</SourceQualifier>
-          </Source>
-          <SourceReference>0000000</SourceReference>
-          <FillNumber>00</FillNumber>
-        </HistorySource>
-      </MedicationDispensed>
-      <MedicationDispensed>
-        <DrugDescription>diethylpropion hydrochloride 25 MG Oral Tablet [Tenuate]</DrugDescription>
-        <DrugCoded>
-          <ProductCode>
-            <Code>62682706504</Code>
-            <Qualifier>ND</Qualifier>
-          </ProductCode>
-        </DrugCoded>
-        <Quantity>
-          <Value>1</Value>
-          <CodeListQualifier>87</CodeListQualifier>
-          <QuantityUnitOfMeasure>
-            <Code>Unspecified</Code>
-          </QuantityUnitOfMeasure>
-        </Quantity>
-        <DaysSupply>1</DaysSupply>
-        <WrittenDate>
-          <Date>2019-08-14</Date>
-        </WrittenDate>
-        <LastFillDate>
-          <Date>2019-08-14</Date>
-        </LastFillDate>
-        <Substitutions>0</Substitutions>
-        <Note>04</Note>
-        <RefillsRemaining>0</RefillsRemaining>
-        <Pharmacy>
-          <Identification>
-            <NCPDPID>0</NCPDPID>
-            <DEANumber>XX0000000</DEANumber>
-            <NPI>0</NPI>
-            <MutuallyDefined>XX0000000</MutuallyDefined>
-          </Identification>
-          <BusinessName>Central Manhattan Pharmacy, INC.</BusinessName>
-          <Address>
-            <AddressLine1>1 Any HWY S</AddressLine1>
-            <City>Seattle</City>
-            <StateProvince>WA</StateProvince>
-            <PostalCode>98000</PostalCode>
-          </Address>
-          <CommunicationNumbers>
-            <PrimaryTelephone>
-              <Number>2061009000</Number>
-            </PrimaryTelephone>
-          </CommunicationNumbers>
-        </Pharmacy>
-        <Prescriber>
-          <NonVeterinarian>
-            <Identification>
-              <DEANumber>XX0000000</DEANumber>
-              <NPI>0</NPI>
-              <MutuallyDefined>XX0000000</MutuallyDefined>
-            </Identification>
-            <Name>
-              <LastName>Lee</LastName>
-              <FirstName>Stan</FirstName>
-            </Name>
-            <Address>
-              <AddressLine1>1 Metropolis ST</AddressLine1>
+              <AddressLine1>1 Old ST</AddressLine1>
               <City>Seattle</City>
               <StateProvince>WA</StateProvince>
               <PostalCode>98000</PostalCode>
@@ -260,461 +260,11 @@
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed>
-       <MedicationDispensed>
-        <DrugDescription>dihydrocodeine bitartrate 16 MG Oral Tablet [Dvorah]</DrugDescription>
+      <MedicationDispensed>
+        <DrugDescription>SMORPHINE SULFATE IR 15 MG TAB</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>70569015230</Code>
-            <Qualifier>ND</Qualifier>
-          </ProductCode>
-        </DrugCoded>
-        <Quantity>
-          <Value>30</Value>
-          <CodeListQualifier>87</CodeListQualifier>
-          <QuantityUnitOfMeasure>
-            <Code>Unspecified</Code>
-          </QuantityUnitOfMeasure>
-        </Quantity>
-        <DaysSupply>30</DaysSupply>
-        <WrittenDate>
-          <Date>2021-01-10</Date>
-        </WrittenDate>
-        <LastFillDate>
-          <Date>2021-01-10</Date>
-        </LastFillDate>
-        <Substitutions>0</Substitutions>
-        <Note>04</Note>
-        <RefillsRemaining>0</RefillsRemaining>
-        <Pharmacy>
-          <Identification>
-            <NCPDPID>0</NCPDPID>
-            <DEANumber>XX0000000</DEANumber>
-            <NPI>0</NPI>
-            <MutuallyDefined>XX0000000</MutuallyDefined>
-          </Identification>
-          <BusinessName>Central Manhattan Pharmacy, INC.</BusinessName>
-          <Address>
-            <AddressLine1>1 Atomic HWY S</AddressLine1>
-            <City>Seattle</City>
-            <StateProvince>WA</StateProvince>
-            <PostalCode>98000</PostalCode>
-          </Address>
-          <CommunicationNumbers>
-            <PrimaryTelephone>
-              <Number>2061009000</Number>
-            </PrimaryTelephone>
-          </CommunicationNumbers>
-        </Pharmacy>
-        <Prescriber>
-          <NonVeterinarian>
-            <Identification>
-              <DEANumber>XX0000000</DEANumber>
-              <NPI>0</NPI>
-              <MutuallyDefined>XX0000000</MutuallyDefined>
-            </Identification>
-            <Name>
-              <LastName>Lee</LastName>
-              <FirstName>Stan</FirstName>
-            </Name>
-            <Address>
-              <AddressLine1>100 Metropolis ST</AddressLine1>
-              <City>Seattle</City>
-              <StateProvince>WA</StateProvince>
-              <PostalCode>98000</PostalCode>
-            </Address>
-          </NonVeterinarian>
-        </Prescriber>
-        <HistorySource>
-          <Source>
-            <Reference>
-              <DEANumber>XX0000000</DEANumber>
-            </Reference>
-            <SourceQualifier>P2</SourceQualifier>
-          </Source>
-          <SourceReference>0000000</SourceReference>
-          <FillNumber>00</FillNumber>
-        </HistorySource>
-      </MedicationDispensed>
-       <MedicationDispensed>
-        <DrugDescription>atropine sulfate 0.025 MG / diphenoxylate hydrochloride 2.5 MG</DrugDescription>
-        <DrugCoded>
-          <ProductCode>
-            <Code>43063008904</Code>
-            <Qualifier>ND</Qualifier>
-          </ProductCode>
-        </DrugCoded>
-        <Quantity>
-          <Value>30</Value>
-          <CodeListQualifier>87</CodeListQualifier>
-          <QuantityUnitOfMeasure>
-            <Code>Unspecified</Code>
-          </QuantityUnitOfMeasure>
-        </Quantity>
-        <DaysSupply>30</DaysSupply>
-        <WrittenDate>
-          <Date>2021-01-10</Date>
-        </WrittenDate>
-        <LastFillDate>
-          <Date>2021-04-15</Date>
-        </LastFillDate>
-        <Substitutions>0</Substitutions>
-        <Note>04</Note>
-        <RefillsRemaining>0</RefillsRemaining>
-        <Pharmacy>
-          <Identification>
-            <NCPDPID>0</NCPDPID>
-            <DEANumber>XX0000000</DEANumber>
-            <NPI>0</NPI>
-            <MutuallyDefined>XX0000000</MutuallyDefined>
-          </Identification>
-          <BusinessName>Central Manhattan Pharmacy, INC.</BusinessName>
-          <Address>
-            <AddressLine1>1 Atomic HWY S</AddressLine1>
-            <City>Seattle</City>
-            <StateProvince>WA</StateProvince>
-            <PostalCode>98000</PostalCode>
-          </Address>
-          <CommunicationNumbers>
-            <PrimaryTelephone>
-              <Number>2061009000</Number>
-            </PrimaryTelephone>
-          </CommunicationNumbers>
-        </Pharmacy>
-        <Prescriber>
-          <NonVeterinarian>
-            <Identification>
-              <DEANumber>XX0000000</DEANumber>
-              <NPI>0</NPI>
-              <MutuallyDefined>XX0000000</MutuallyDefined>
-            </Identification>
-            <Name>
-              <LastName>Lee</LastName>
-              <FirstName>Stan</FirstName>
-            </Name>
-            <Address>
-              <AddressLine1>100 Metropolis ST</AddressLine1>
-              <City>Seattle</City>
-              <StateProvince>WA</StateProvince>
-              <PostalCode>98000</PostalCode>
-            </Address>
-          </NonVeterinarian>
-        </Prescriber>
-        <HistorySource>
-          <Source>
-            <Reference>
-              <DEANumber>XX0000000</DEANumber>
-            </Reference>
-            <SourceQualifier>P2</SourceQualifier>
-          </Source>
-          <SourceReference>0000000</SourceReference>
-          <FillNumber>00</FillNumber>
-        </HistorySource>
-      </MedicationDispensed>
-       <MedicationDispensed>
-        <DrugDescription>dronabinol 5 MG/ML Oral Solution [Syndros] </DrugDescription>
-        <DrugCoded>
-          <ProductCode>
-            <Code>78613020130</Code>
-            <Qualifier>ND</Qualifier>
-          </ProductCode>
-        </DrugCoded>
-        <Quantity>
-          <Value>30</Value>
-          <CodeListQualifier>87</CodeListQualifier>
-          <QuantityUnitOfMeasure>
-            <Code>Unspecified</Code>
-          </QuantityUnitOfMeasure>
-        </Quantity>
-        <DaysSupply>30</DaysSupply>
-        <WrittenDate>
-          <Date>2019-01-10</Date>
-        </WrittenDate>
-        <LastFillDate>
-          <Date>2019-04-15</Date>
-        </LastFillDate>
-        <Substitutions>0</Substitutions>
-        <Note>04</Note>
-        <RefillsRemaining>0</RefillsRemaining>
-        <Pharmacy>
-          <Identification>
-            <NCPDPID>0</NCPDPID>
-            <DEANumber>XX0000000</DEANumber>
-            <NPI>0</NPI>
-            <MutuallyDefined>XX0000000</MutuallyDefined>
-          </Identification>
-          <BusinessName>Central Manhattan Pharmacy, INC.</BusinessName>
-          <Address>
-            <AddressLine1>1 Atomic HWY S</AddressLine1>
-            <City>Seattle</City>
-            <StateProvince>WA</StateProvince>
-            <PostalCode>98000</PostalCode>
-          </Address>
-          <CommunicationNumbers>
-            <PrimaryTelephone>
-              <Number>2061009000</Number>
-            </PrimaryTelephone>
-          </CommunicationNumbers>
-        </Pharmacy>
-        <Prescriber>
-          <NonVeterinarian>
-            <Identification>
-              <DEANumber>XX0000000</DEANumber>
-              <NPI>0</NPI>
-              <MutuallyDefined>XX0000000</MutuallyDefined>
-            </Identification>
-            <Name>
-              <LastName>Lee</LastName>
-              <FirstName>Stan</FirstName>
-            </Name>
-            <Address>
-              <AddressLine1>100 Metropolis ST</AddressLine1>
-              <City>Seattle</City>
-              <StateProvince>WA</StateProvince>
-              <PostalCode>98000</PostalCode>
-            </Address>
-          </NonVeterinarian>
-        </Prescriber>
-        <HistorySource>
-          <Source>
-            <Reference>
-              <DEANumber>XX0000000</DEANumber>
-            </Reference>
-            <SourceQualifier>P2</SourceQualifier>
-          </Source>
-          <SourceReference>0000000</SourceReference>
-          <FillNumber>00</FillNumber>
-        </HistorySource>
-      </MedicationDispensed>
-       <MedicationDispensed>
-        <DrugDescription>eluxadoline 100 MG Oral Tablet [Viberzi]</DrugDescription>
-        <DrugCoded>
-          <ProductCode>
-            <Code>61874010008</Code>
-            <Qualifier>ND</Qualifier>
-          </ProductCode>
-        </DrugCoded>
-        <Quantity>
-          <Value>30</Value>
-          <CodeListQualifier>87</CodeListQualifier>
-          <QuantityUnitOfMeasure>
-            <Code>Unspecified</Code>
-          </QuantityUnitOfMeasure>
-        </Quantity>
-        <DaysSupply>30</DaysSupply>
-        <WrittenDate>
-          <Date>2020-06-10</Date>
-        </WrittenDate>
-        <LastFillDate>
-          <Date>2020-07-08</Date>
-        </LastFillDate>
-        <Substitutions>0</Substitutions>
-        <Note>04</Note>
-        <RefillsRemaining>0</RefillsRemaining>
-        <Pharmacy>
-          <Identification>
-            <NCPDPID>0</NCPDPID>
-            <DEANumber>XX0000000</DEANumber>
-            <NPI>0</NPI>
-            <MutuallyDefined>XX0000000</MutuallyDefined>
-          </Identification>
-          <BusinessName>Central Manhattan Pharmacy, INC.</BusinessName>
-          <Address>
-            <AddressLine1>1 Atomic HWY S</AddressLine1>
-            <City>Seattle</City>
-            <StateProvince>WA</StateProvince>
-            <PostalCode>98000</PostalCode>
-          </Address>
-          <CommunicationNumbers>
-            <PrimaryTelephone>
-              <Number>2061009000</Number>
-            </PrimaryTelephone>
-          </CommunicationNumbers>
-        </Pharmacy>
-        <Prescriber>
-          <NonVeterinarian>
-            <Identification>
-              <DEANumber>XX0000000</DEANumber>
-              <NPI>0</NPI>
-              <MutuallyDefined>XX0000000</MutuallyDefined>
-            </Identification>
-            <Name>
-              <LastName>Lee</LastName>
-              <FirstName>Stan</FirstName>
-            </Name>
-            <Address>
-              <AddressLine1>100 Metropolis ST</AddressLine1>
-              <City>Seattle</City>
-              <StateProvince>WA</StateProvince>
-              <PostalCode>98000</PostalCode>
-            </Address>
-          </NonVeterinarian>
-        </Prescriber>
-        <HistorySource>
-          <Source>
-            <Reference>
-              <DEANumber>XX0000000</DEANumber>
-            </Reference>
-            <SourceQualifier>P2</SourceQualifier>
-          </Source>
-          <SourceReference>0000000</SourceReference>
-          <FillNumber>00</FillNumber>
-        </HistorySource>
-      </MedicationDispensed>
-       <MedicationDispensed>
-        <DrugDescription>estazolam 1 MG Oral Tablet</DrugDescription>
-        <DrugCoded>
-          <ProductCode>
-            <Code>70954048010</Code>
-            <Qualifier>ND</Qualifier>
-          </ProductCode>
-        </DrugCoded>
-        <Quantity>
-          <Value>30</Value>
-          <CodeListQualifier>87</CodeListQualifier>
-          <QuantityUnitOfMeasure>
-            <Code>Unspecified</Code>
-          </QuantityUnitOfMeasure>
-        </Quantity>
-        <DaysSupply>30</DaysSupply>
-        <WrittenDate>
-          <Date>2021-04-10</Date>
-        </WrittenDate>
-        <LastFillDate>
-          <Date>2021-04-10</Date>
-        </LastFillDate>
-        <Substitutions>0</Substitutions>
-        <Note>04</Note>
-        <RefillsRemaining>0</RefillsRemaining>
-        <Pharmacy>
-          <Identification>
-            <NCPDPID>0</NCPDPID>
-            <DEANumber>XX0000000</DEANumber>
-            <NPI>0</NPI>
-            <MutuallyDefined>XX0000000</MutuallyDefined>
-          </Identification>
-          <BusinessName>Central Manhattan Pharmacy, INC.</BusinessName>
-          <Address>
-            <AddressLine1>1 Atomic HWY S</AddressLine1>
-            <City>Seattle</City>
-            <StateProvince>WA</StateProvince>
-            <PostalCode>98000</PostalCode>
-          </Address>
-          <CommunicationNumbers>
-            <PrimaryTelephone>
-              <Number>2061009000</Number>
-            </PrimaryTelephone>
-          </CommunicationNumbers>
-        </Pharmacy>
-        <Prescriber>
-          <NonVeterinarian>
-            <Identification>
-              <DEANumber>XX0000000</DEANumber>
-              <NPI>0</NPI>
-              <MutuallyDefined>XX0000000</MutuallyDefined>
-            </Identification>
-            <Name>
-              <LastName>Lee</LastName>
-              <FirstName>Stan</FirstName>
-            </Name>
-            <Address>
-              <AddressLine1>100 Metropolis ST</AddressLine1>
-              <City>Seattle</City>
-              <StateProvince>WA</StateProvince>
-              <PostalCode>98000</PostalCode>
-            </Address>
-          </NonVeterinarian>
-        </Prescriber>
-        <HistorySource>
-          <Source>
-            <Reference>
-              <DEANumber>XX0000000</DEANumber>
-            </Reference>
-            <SourceQualifier>P2</SourceQualifier>
-          </Source>
-          <SourceReference>0000000</SourceReference>
-          <FillNumber>00</FillNumber>
-        </HistorySource>
-      </MedicationDispensed>
-       <MedicationDispensed>
-        <DrugDescription>estrogens, conjugated (USP) 0.625 MG Oral Tablet [Premarin]</DrugDescription>
-        <DrugCoded>
-          <ProductCode>
-            <Code>00046110291</Code>
-            <Qualifier>ND</Qualifier>
-          </ProductCode>
-        </DrugCoded>
-        <Quantity>
-          <Value>30</Value>
-          <CodeListQualifier>87</CodeListQualifier>
-          <QuantityUnitOfMeasure>
-            <Code>Unspecified</Code>
-          </QuantityUnitOfMeasure>
-        </Quantity>
-        <DaysSupply>30</DaysSupply>
-        <WrittenDate>
-          <Date>2020-09-01</Date>
-        </WrittenDate>
-        <LastFillDate>
-          <Date>2020-09-01</Date>
-        </LastFillDate>
-        <Substitutions>0</Substitutions>
-        <Note>04</Note>
-        <RefillsRemaining>0</RefillsRemaining>
-        <Pharmacy>
-          <Identification>
-            <NCPDPID>0</NCPDPID>
-            <DEANumber>XX0000000</DEANumber>
-            <NPI>0</NPI>
-            <MutuallyDefined>XX0000000</MutuallyDefined>
-          </Identification>
-          <BusinessName>Central Manhattan Pharmacy, INC.</BusinessName>
-          <Address>
-            <AddressLine1>1 Atomic HWY S</AddressLine1>
-            <City>Seattle</City>
-            <StateProvince>WA</StateProvince>
-            <PostalCode>98000</PostalCode>
-          </Address>
-          <CommunicationNumbers>
-            <PrimaryTelephone>
-              <Number>2061009000</Number>
-            </PrimaryTelephone>
-          </CommunicationNumbers>
-        </Pharmacy>
-        <Prescriber>
-          <NonVeterinarian>
-            <Identification>
-              <DEANumber>XX0000000</DEANumber>
-              <NPI>0</NPI>
-              <MutuallyDefined>XX0000000</MutuallyDefined>
-            </Identification>
-            <Name>
-              <LastName>Lee</LastName>
-              <FirstName>Stan</FirstName>
-            </Name>
-            <Address>
-              <AddressLine1>100 Metropolis ST</AddressLine1>
-              <City>Seattle</City>
-              <StateProvince>WA</StateProvince>
-              <PostalCode>98000</PostalCode>
-            </Address>
-          </NonVeterinarian>
-        </Prescriber>
-        <HistorySource>
-          <Source>
-            <Reference>
-              <DEANumber>XX0000000</DEANumber>
-            </Reference>
-            <SourceQualifier>P2</SourceQualifier>
-          </Source>
-          <SourceReference>0000000</SourceReference>
-          <FillNumber>00</FillNumber>
-        </HistorySource>
-      </MedicationDispensed>
-       <MedicationDispensed>
-        <DrugDescription>eszopiclone 1 MG Oral Tablet</DrugDescription>
-        <DrugCoded>
-          <ProductCode>
-            <Code>47335058683</Code>
+            <Code>00378876593</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
@@ -727,10 +277,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2019-02-10</Date>
+          <Date>2021-04-02</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-02-10</Date>
+          <Date>2021-04-02</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -742,9 +292,9 @@
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Central Manhattan Pharmacy, INC.</BusinessName>
+          <BusinessName>Oyster Bay Pharmacy, INC.</BusinessName>
           <Address>
-            <AddressLine1>1 Atomic HWY S</AddressLine1>
+            <AddressLine1>1 SomeHWY S</AddressLine1>
             <City>Seattle</City>
             <StateProvince>WA</StateProvince>
             <PostalCode>98000</PostalCode>
@@ -763,11 +313,11 @@
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Lee</LastName>
-              <FirstName>Stan</FirstName>
+              <LastName>Soper</LastName>
+              <FirstName>George</FirstName>
             </Name>
             <Address>
-              <AddressLine1>100 Metropolis ST</AddressLine1>
+              <AddressLine1>1 Old ST</AddressLine1>
               <City>Seattle</City>
               <StateProvince>WA</StateProvince>
               <PostalCode>98000</PostalCode>
@@ -781,20 +331,20 @@
             </Reference>
             <SourceQualifier>P2</SourceQualifier>
           </Source>
-          <SourceReference>0000000</SourceReference>
+          <SourceReference>0869436</SourceReference>
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed>
-       <MedicationDispensed>
-        <DrugDescription>POTIGA (ezogabine)TAB CV 300MG</DrugDescription>
+            <MedicationDispensed>
+        <DrugDescription>LORAZEPAM 1 MG TABLET</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>0173081359</Code>
+            <Code>00591024105</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
         <Quantity>
-          <Value>30</Value>
+          <Value>60</Value>
           <CodeListQualifier>87</CodeListQualifier>
           <QuantityUnitOfMeasure>
             <Code>Unspecified</Code>
@@ -802,10 +352,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-10-10</Date>
+          <Date>2021-03-02</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-10-10</Date>
+          <Date>2021-03-02</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -817,9 +367,9 @@
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Central Manhattan Pharmacy, INC.</BusinessName>
+          <BusinessName>Oyster Bay Pharmacy, INC.</BusinessName>
           <Address>
-            <AddressLine1>1 Atomic HWY S</AddressLine1>
+            <AddressLine1>1 SomeHWY S</AddressLine1>
             <City>Seattle</City>
             <StateProvince>WA</StateProvince>
             <PostalCode>98000</PostalCode>
@@ -838,11 +388,11 @@
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Lee</LastName>
-              <FirstName>Stan</FirstName>
+              <LastName>Soper</LastName>
+              <FirstName>George</FirstName>
             </Name>
             <Address>
-              <AddressLine1>100 Metropolis ST</AddressLine1>
+              <AddressLine1>1 Old ST</AddressLine1>
               <City>Seattle</City>
               <StateProvince>WA</StateProvince>
               <PostalCode>98000</PostalCode>
@@ -856,20 +406,20 @@
             </Reference>
             <SourceQualifier>P2</SourceQualifier>
           </Source>
-          <SourceReference>0000000</SourceReference>
+          <SourceReference>0869436</SourceReference>
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed>
-       <MedicationDispensed>
-        <DrugDescription>fenfluramine 2.2 MG/ML Oral Solution [Fintepla]</DrugDescription>
+            <MedicationDispensed>
+        <DrugDescription>GABAPENTIN 400 MG CAPSULE</DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>43376032230	</Code>
+            <Code>65162010350</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
         <Quantity>
-          <Value>30</Value>
+          <Value>90</Value>
           <CodeListQualifier>87</CodeListQualifier>
           <QuantityUnitOfMeasure>
             <Code>Unspecified</Code>
@@ -877,10 +427,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2019-07-09</Date>
+          <Date>2021-02-01</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-07-09</Date>
+          <Date>2021-02-01</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -892,9 +442,9 @@
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Central Manhattan Pharmacy, INC.</BusinessName>
+          <BusinessName>Old Pharmacy, INC.</BusinessName>
           <Address>
-            <AddressLine1>1 Atomic HWY S</AddressLine1>
+            <AddressLine1>1 SomeHWY S</AddressLine1>
             <City>Seattle</City>
             <StateProvince>WA</StateProvince>
             <PostalCode>98000</PostalCode>
@@ -913,11 +463,11 @@
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Lee</LastName>
-              <FirstName>Stan</FirstName>
+              <LastName>Kenyon</LastName>
+              <FirstName>John</FirstName>
             </Name>
             <Address>
-              <AddressLine1>100 Metropolis ST</AddressLine1>
+              <AddressLine1>1 Old ST</AddressLine1>
               <City>Seattle</City>
               <StateProvince>WA</StateProvince>
               <PostalCode>98000</PostalCode>
@@ -931,20 +481,170 @@
             </Reference>
             <SourceQualifier>P2</SourceQualifier>
           </Source>
-          <SourceReference>0000000</SourceReference>
+          <SourceReference>0869436</SourceReference>
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed>
-       <MedicationDispensed>
-        <DrugDescription>fluoxymesterone 10 MG Oral Tablet [Androxy</DrugDescription>
+            <MedicationDispensed>
+        <DrugDescription>atropine sulfate 0.025 MG / diphenoxylate hydrochloride 2.5 MG Oral Tablet [Lomotil] </DrugDescription>
         <DrugCoded>
           <ProductCode>
-            <Code>	00832008600</Code>
+            <Code>55289023010</Code>
             <Qualifier>ND</Qualifier>
           </ProductCode>
         </DrugCoded>
         <Quantity>
-          <Value>30</Value>
+          <Value>120</Value>
+          <CodeListQualifier>87</CodeListQualifier>
+          <QuantityUnitOfMeasure>
+            <Code>Unspecified</Code>
+          </QuantityUnitOfMeasure>
+        </Quantity>
+        <DaysSupply>60</DaysSupply>
+        <WrittenDate>
+          <Date>2020-11-30</Date>
+        </WrittenDate>
+        <LastFillDate>
+          <Date>2020-11-30</Date>
+        </LastFillDate>
+        <Substitutions>0</Substitutions>
+        <Note>04</Note>
+        <RefillsRemaining>0</RefillsRemaining>
+        <Pharmacy>
+          <Identification>
+            <NCPDPID>0</NCPDPID>
+            <DEANumber>XX0000000</DEANumber>
+            <NPI>0</NPI>
+            <MutuallyDefined>XX0000000</MutuallyDefined>
+          </Identification>
+          <BusinessName>Park Ave Pharmacy, INC.</BusinessName>
+          <Address>
+            <AddressLine1>1 SomeHWY S</AddressLine1>
+            <City>Seattle</City>
+            <StateProvince>WA</StateProvince>
+            <PostalCode>98000</PostalCode>
+          </Address>
+          <CommunicationNumbers>
+            <PrimaryTelephone>
+              <Number>2061009000</Number>
+            </PrimaryTelephone>
+          </CommunicationNumbers>
+        </Pharmacy>
+        <Prescriber>
+          <NonVeterinarian>
+            <Identification>
+              <DEANumber>XX0000000</DEANumber>
+              <NPI>0</NPI>
+              <MutuallyDefined>XX0000000</MutuallyDefined>
+            </Identification>
+            <Name>
+              <LastName>Baker</LastName>
+              <FirstName>Josephine</FirstName>
+            </Name>
+            <Address>
+              <AddressLine1>1 Old ST</AddressLine1>
+              <City>Seattle</City>
+              <StateProvince>WA</StateProvince>
+              <PostalCode>98000</PostalCode>
+            </Address>
+          </NonVeterinarian>
+        </Prescriber>
+        <HistorySource>
+          <Source>
+            <Reference>
+              <DEANumber>XX0000000</DEANumber>
+            </Reference>
+            <SourceQualifier>P2</SourceQualifier>
+          </Source>
+          <SourceReference>0869436</SourceReference>
+          <FillNumber>00</FillNumber>
+        </HistorySource>
+      </MedicationDispensed>
+        <MedicationDispensed>
+        <DrugDescription>atropine sulfate 0.025 MG / diphenoxylate hydrochloride 2.5 MG Oral Tablet [Lonox]</DrugDescription>
+        <DrugCoded>
+          <ProductCode>
+            <Code>00781126201</Code>
+            <Qualifier>ND</Qualifier>
+          </ProductCode>
+        </DrugCoded>
+        <Quantity>
+          <Value>120</Value>
+          <CodeListQualifier>87</CodeListQualifier>
+          <QuantityUnitOfMeasure>
+            <Code>Unspecified</Code>
+          </QuantityUnitOfMeasure>
+        </Quantity>
+        <DaysSupply>60</DaysSupply>
+        <WrittenDate>
+          <Date>2020-11-30</Date>
+        </WrittenDate>
+        <LastFillDate>
+          <Date>2020-11-30</Date>
+        </LastFillDate>
+        <Substitutions>0</Substitutions>
+        <Note>04</Note>
+        <RefillsRemaining>0</RefillsRemaining>
+        <Pharmacy>
+          <Identification>
+            <NCPDPID>0</NCPDPID>
+            <DEANumber>XX0000000</DEANumber>
+            <NPI>0</NPI>
+            <MutuallyDefined>XX0000000</MutuallyDefined>
+          </Identification>
+          <BusinessName>Old Pharmacy, INC.</BusinessName>
+          <Address>
+            <AddressLine1>1 SomeHWY S</AddressLine1>
+            <City>Seattle</City>
+            <StateProvince>WA</StateProvince>
+            <PostalCode>98000</PostalCode>
+          </Address>
+          <CommunicationNumbers>
+            <PrimaryTelephone>
+              <Number>2061009000</Number>
+            </PrimaryTelephone>
+          </CommunicationNumbers>
+        </Pharmacy>
+        <Prescriber>
+          <NonVeterinarian>
+            <Identification>
+              <DEANumber>XX0000000</DEANumber>
+              <NPI>0</NPI>
+              <MutuallyDefined>XX0000000</MutuallyDefined>
+            </Identification>
+            <Name>
+              <LastName>Baker</LastName>
+              <FirstName>Josepine</FirstName>
+            </Name>
+            <Address>
+              <AddressLine1>1 Old ST</AddressLine1>
+              <City>Seattle</City>
+              <StateProvince>WA</StateProvince>
+              <PostalCode>98000</PostalCode>
+            </Address>
+          </NonVeterinarian>
+        </Prescriber>
+        <HistorySource>
+          <Source>
+            <Reference>
+              <DEANumber>XX0000000</DEANumber>
+            </Reference>
+            <SourceQualifier>P2</SourceQualifier>
+          </Source>
+          <SourceReference>0869436</SourceReference>
+          <FillNumber>00</FillNumber>
+        </HistorySource>
+      </MedicationDispensed>
+        <MedicationDispensed>
+        <DrugDescription>morphine sulfate 15 MG Extended Release Oral Tablet [Arymo]</DrugDescription>
+        <DrugCoded>
+          <ProductCode>
+            <Code>69344011111</Code>
+            <Qualifier>ND</Qualifier>
+          </ProductCode>
+        </DrugCoded>
+        <Quantity>
+          <Value>90</Value>
           <CodeListQualifier>87</CodeListQualifier>
           <QuantityUnitOfMeasure>
             <Code>Unspecified</Code>
@@ -952,10 +652,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2019-01-10</Date>
+          <Date>2020-11-23</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-01-10</Date>
+          <Date>2020-11-23</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -967,9 +667,9 @@
             <NPI>0</NPI>
             <MutuallyDefined>XX0000000</MutuallyDefined>
           </Identification>
-          <BusinessName>Central Manhattan Pharmacy, INC.</BusinessName>
+          <BusinessName>North Brother Pharmacy, INC.</BusinessName>
           <Address>
-            <AddressLine1>1 Atomic HWY S</AddressLine1>
+            <AddressLine1>1 SomeHWY S</AddressLine1>
             <City>Seattle</City>
             <StateProvince>WA</StateProvince>
             <PostalCode>98000</PostalCode>
@@ -988,11 +688,11 @@
               <MutuallyDefined>XX0000000</MutuallyDefined>
             </Identification>
             <Name>
-              <LastName>Lee</LastName>
-              <FirstName>Stan</FirstName>
+              <LastName>Park</LastName>
+              <FirstName>William</FirstName>
             </Name>
             <Address>
-              <AddressLine1>100 Metropolis ST</AddressLine1>
+              <AddressLine1>1 Old ST</AddressLine1>
               <City>Seattle</City>
               <StateProvince>WA</StateProvince>
               <PostalCode>98000</PostalCode>
@@ -1006,11 +706,237 @@
             </Reference>
             <SourceQualifier>P2</SourceQualifier>
           </Source>
-          <SourceReference>0000000</SourceReference>
+          <SourceReference>0869436</SourceReference>
           <FillNumber>00</FillNumber>
         </HistorySource>
       </MedicationDispensed>
-     <RequestedDates>
+        <MedicationDispensed>
+        <DrugDescription>DIPHENOXYLATE-ATROP 2.5-0.025</DrugDescription>
+        <DrugCoded>
+          <ProductCode>
+            <Code>00406123601</Code>
+            <Qualifier>ND</Qualifier>
+          </ProductCode>
+        </DrugCoded>
+        <Quantity>
+          <Value>120</Value>
+          <CodeListQualifier>87</CodeListQualifier>
+          <QuantityUnitOfMeasure>
+            <Code>Unspecified</Code>
+          </QuantityUnitOfMeasure>
+        </Quantity>
+        <DaysSupply>30</DaysSupply>
+        <WrittenDate>
+          <Date>2020-11-16</Date>
+        </WrittenDate>
+        <LastFillDate>
+          <Date>2020-11-16</Date>
+        </LastFillDate>
+        <Substitutions>0</Substitutions>
+        <Note>04</Note>
+        <RefillsRemaining>0</RefillsRemaining>
+        <Pharmacy>
+          <Identification>
+            <NCPDPID>0</NCPDPID>
+            <DEANumber>XX0000000</DEANumber>
+            <NPI>0</NPI>
+            <MutuallyDefined>XX0000000</MutuallyDefined>
+          </Identification>
+          <BusinessName>Old Pharmacy, INC.</BusinessName>
+          <Address>
+            <AddressLine1>1 SomeHWY S</AddressLine1>
+            <City>Seattle</City>
+            <StateProvince>WA</StateProvince>
+            <PostalCode>98000</PostalCode>
+          </Address>
+          <CommunicationNumbers>
+            <PrimaryTelephone>
+              <Number>2061009000</Number>
+            </PrimaryTelephone>
+          </CommunicationNumbers>
+        </Pharmacy>
+        <Prescriber>
+          <NonVeterinarian>
+            <Identification>
+              <DEANumber>XX0000000</DEANumber>
+              <NPI>0</NPI>
+              <MutuallyDefined>XX0000000</MutuallyDefined>
+            </Identification>
+            <Name>
+              <LastName>Baker</LastName>
+              <FirstName>Josephine</FirstName>
+            </Name>
+            <Address>
+              <AddressLine1>1 Old ST</AddressLine1>
+              <City>Seattle</City>
+              <StateProvince>WA</StateProvince>
+              <PostalCode>98000</PostalCode>
+            </Address>
+          </NonVeterinarian>
+        </Prescriber>
+        <HistorySource>
+          <Source>
+            <Reference>
+              <DEANumber>XX0000000</DEANumber>
+            </Reference>
+            <SourceQualifier>P2</SourceQualifier>
+          </Source>
+          <SourceReference>0869436</SourceReference>
+          <FillNumber>00</FillNumber>
+        </HistorySource>
+      </MedicationDispensed>
+        <MedicationDispensed>
+        <DrugDescription>MORPHINE SULFATE IR 15 MG TAB</DrugDescription>
+        <DrugCoded>
+          <ProductCode>
+            <Code>00054023525</Code>
+            <Qualifier>ND</Qualifier>
+          </ProductCode>
+        </DrugCoded>
+        <Quantity>
+          <Value>90</Value>
+          <CodeListQualifier>87</CodeListQualifier>
+          <QuantityUnitOfMeasure>
+            <Code>Unspecified</Code>
+          </QuantityUnitOfMeasure>
+        </Quantity>
+        <DaysSupply>30</DaysSupply>
+        <WrittenDate>
+          <Date>2020-11-09</Date>
+        </WrittenDate>
+        <LastFillDate>
+          <Date>2020-11-09</Date>
+        </LastFillDate>
+        <Substitutions>0</Substitutions>
+        <Note>04</Note>
+        <RefillsRemaining>0</RefillsRemaining>
+        <Pharmacy>
+          <Identification>
+            <NCPDPID>0</NCPDPID>
+            <DEANumber>XX0000000</DEANumber>
+            <NPI>0</NPI>
+            <MutuallyDefined>XX0000000</MutuallyDefined>
+          </Identification>
+          <BusinessName>Old Pharmacy, INC.</BusinessName>
+          <Address>
+            <AddressLine1>1 SomeHWY S</AddressLine1>
+            <City>Seattle</City>
+            <StateProvince>WA</StateProvince>
+            <PostalCode>98000</PostalCode>
+          </Address>
+          <CommunicationNumbers>
+            <PrimaryTelephone>
+              <Number>2061009000</Number>
+            </PrimaryTelephone>
+          </CommunicationNumbers>
+        </Pharmacy>
+        <Prescriber>
+          <NonVeterinarian>
+            <Identification>
+              <DEANumber>XX0000000</DEANumber>
+              <NPI>0</NPI>
+              <MutuallyDefined>XX0000000</MutuallyDefined>
+            </Identification>
+            <Name>
+              <LastName>Kenyon</LastName>
+              <FirstName>John</FirstName>
+            </Name>
+            <Address>
+              <AddressLine1>1 Old ST</AddressLine1>
+              <City>Seattle</City>
+              <StateProvince>WA</StateProvince>
+              <PostalCode>98000</PostalCode>
+            </Address>
+          </NonVeterinarian>
+        </Prescriber>
+        <HistorySource>
+          <Source>
+            <Reference>
+              <DEANumber>XX0000000</DEANumber>
+            </Reference>
+            <SourceQualifier>P2</SourceQualifier>
+          </Source>
+          <SourceReference>0869436</SourceReference>
+          <FillNumber>00</FillNumber>
+        </HistorySource>
+      </MedicationDispensed>
+              <MedicationDispensed>
+        <DrugDescription>atropine sulfate 0.025 MG / diphenoxylate hydrochloride 2.5 MG</DrugDescription>
+        <DrugCoded>
+          <ProductCode>
+            <Code>00781126205</Code>
+            <Qualifier>ND</Qualifier>
+          </ProductCode>
+        </DrugCoded>
+        <Quantity>
+          <Value>120</Value>
+          <CodeListQualifier>87</CodeListQualifier>
+          <QuantityUnitOfMeasure>
+            <Code>Unspecified</Code>
+          </QuantityUnitOfMeasure>
+        </Quantity>
+        <DaysSupply>30</DaysSupply>
+        <WrittenDate>
+          <Date>2020-11-03</Date>
+        </WrittenDate>
+        <LastFillDate>
+          <Date>2020-11-03</Date>
+        </LastFillDate>
+        <Substitutions>0</Substitutions>
+        <Note>04</Note>
+        <RefillsRemaining>0</RefillsRemaining>
+        <Pharmacy>
+          <Identification>
+            <NCPDPID>0</NCPDPID>
+            <DEANumber>XX0000000</DEANumber>
+            <NPI>0</NPI>
+            <MutuallyDefined>XX0000000</MutuallyDefined>
+          </Identification>
+          <BusinessName>Old Pharmacy, INC.</BusinessName>
+          <Address>
+            <AddressLine1>1 SomeHWY S</AddressLine1>
+            <City>Seattle</City>
+            <StateProvince>WA</StateProvince>
+            <PostalCode>98000</PostalCode>
+          </Address>
+          <CommunicationNumbers>
+            <PrimaryTelephone>
+              <Number>2061009000</Number>
+            </PrimaryTelephone>
+          </CommunicationNumbers>
+        </Pharmacy>
+        <Prescriber>
+          <NonVeterinarian>
+            <Identification>
+              <DEANumber>XX0000000</DEANumber>
+              <NPI>0</NPI>
+              <MutuallyDefined>XX0000000</MutuallyDefined>
+            </Identification>
+            <Name>
+              <LastName>Kenyon</LastName>
+              <FirstName>John</FirstName>
+            </Name>
+            <Address>
+              <AddressLine1>1 Old ST</AddressLine1>
+              <City>Seattle</City>
+              <StateProvince>WA</StateProvince>
+              <PostalCode>98000</PostalCode>
+            </Address>
+          </NonVeterinarian>
+        </Prescriber>
+        <HistorySource>
+          <Source>
+            <Reference>
+              <DEANumber>XX0000000</DEANumber>
+            </Reference>
+            <SourceQualifier>P2</SourceQualifier>
+          </Source>
+          <SourceReference>0869436</SourceReference>
+          <FillNumber>00</FillNumber>
+        </HistorySource>
+      </MedicationDispensed>
+
+      <RequestedDates>
         <StartDate>
           <Date>2018-01-01</Date>
         </StartDate>
@@ -1021,3 +947,4 @@
     </RxHistoryResponse>
   </Body>
 </Message>
+
