@@ -1,6 +1,7 @@
 import click
 from datetime import datetime, timedelta
 from lxml import etree
+import sys
 import os
 
 
@@ -45,10 +46,12 @@ def timewarp(days, source, dir):
         file_gen = multi_file_gen
 
     for source_file in file_gen():
-        with open(file=source_file, mode='r') as src:
-            bumped_contents = warp_file(src, days)
-        bumped_contents.write(source_file, pretty_print=True)
-
+        try:
+            with open(file=source_file, mode='r') as src:
+                bumped_contents = warp_file(src, days)
+            bumped_contents.write(source_file, pretty_print=True)
+        except etree.XMLSyntaxError as err:
+            print(f"ERROR can't parse XML in {source_file}", file=sys.stderr)
 
 
 
