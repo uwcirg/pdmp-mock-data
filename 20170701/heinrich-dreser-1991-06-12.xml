@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" StructuresVersion="20170715" ECLVersion="20170715" DatatypesVersion="20170715" TransactionDomain="SCRIPT" TransactionVersion="20170715" TransportVersion="20170715">
   <Header>
     <To Qualifier="D">di01ar00</To>
@@ -52,10 +51,10 @@
         </Quantity>
         <DaysSupply>10</DaysSupply>
         <WrittenDate>
-          <Date>2020-11-03</Date>
+          <Date>2021-03-03</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-11-03</Date>
+          <Date>2021-03-03</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -127,10 +126,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-11-03</Date>
+          <Date>2021-03-03</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-11-03</Date>
+          <Date>2021-03-03</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -202,10 +201,10 @@
         </Quantity>
         <DaysSupply>14</DaysSupply>
         <WrittenDate>
-          <Date>2021-06-13</Date>
+          <Date>2021-10-11</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-06-13</Date>
+          <Date>2021-10-11</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -277,10 +276,10 @@
         </Quantity>
         <DaysSupply>45</DaysSupply>
         <WrittenDate>
-          <Date>2020-11-07</Date>
+          <Date>2021-03-07</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-11-07</Date>
+          <Date>2021-03-07</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -352,10 +351,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-11-07</Date>
+          <Date>2021-03-07</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-11-07</Date>
+          <Date>2021-03-07</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -427,10 +426,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-10-03</Date>
+          <Date>2021-01-31</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-10-03</Date>
+          <Date>2021-01-31</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -496,7 +495,6 @@
     </RxHistoryResponse>
   </Body>
 </Message>
-
 <!--
 Date of written Rx is later than dispensed
   -->

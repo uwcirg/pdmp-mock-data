@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" StructuresVersion="20170715" ECLVersion="20170715" DatatypesVersion="20170715" TransactionDomain="SCRIPT" TransactionVersion="20170715" TransportVersion="20170715">
   <Header>
     <To Qualifier="D">di01ar00</To>
@@ -52,10 +51,10 @@
         </Quantity>
         <DaysSupply>5</DaysSupply>
         <WrittenDate>
-          <Date>2021-10-01</Date>
+          <Date>2022-01-29</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-10-01</Date>
+          <Date>2022-01-29</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -127,10 +126,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2021-10-01</Date>
+          <Date>2022-01-29</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-10-01</Date>
+          <Date>2022-01-29</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -202,10 +201,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-08-14</Date>
+          <Date>2020-12-12</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-12-15</Date>
+          <Date>2021-04-14</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -271,4 +270,3 @@
     </RxHistoryResponse>
   </Body>
 </Message>
-

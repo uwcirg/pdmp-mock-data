@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Value for fentanyl pathch 75 mcg/hr and HYDROCODONE-ACETAMIN 7.5-325 have been changed to 0
 -->
-
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" StructuresVersion="20170715" ECLVersion="20170715" DatatypesVersion="20170715" TransactionDomain="SCRIPT" TransactionVersion="20170715" TransportVersion="20170715">
   <Header>
     <To Qualifier="D">di01ar00</To>
@@ -56,10 +54,10 @@ Value for fentanyl pathch 75 mcg/hr and HYDROCODONE-ACETAMIN 7.5-325 have been c
         </Quantity>
         <DaysSupply>90</DaysSupply>
         <WrittenDate>
-          <Date>2021-07-17</Date>
+          <Date>2021-11-14</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-07-17</Date>
+          <Date>2021-11-14</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -132,10 +130,10 @@ Value for fentanyl pathch 75 mcg/hr and HYDROCODONE-ACETAMIN 7.5-325 have been c
         </Quantity>
         <DaysSupply>15</DaysSupply>
         <WrittenDate>
-          <Date>2020-08-14</Date>
+          <Date>2020-12-12</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-12-15</Date>
+          <Date>2021-04-14</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
