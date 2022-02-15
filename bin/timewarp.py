@@ -31,7 +31,7 @@ def warp_file(fh, days):
 
 
 @click.command()
-@click.option('--days', default=0, help="number of days to warp into the future")
+@click.option('--days', default=0, help="number of days to warp into the future (use negative value to move back)")
 @click.option('--source', default=None, help="option to name single source file to time-warp")
 @click.option('--dir', default="20170701", help="option to name source directory, defaults to '20170701'")
 def timewarp(days, source, dir):
