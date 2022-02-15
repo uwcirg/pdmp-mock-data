@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Missing MMEs
 -->
-
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" StructuresVersion="20170715" ECLVersion="20170715" DatatypesVersion="20170715" TransactionDomain="SCRIPT" TransactionVersion="20170715" TransportVersion="20170715">
   <Header>
     <To Qualifier="D">di01ar00</To>
@@ -56,10 +54,10 @@ Missing MMEs
         </Quantity>
         <DaysSupply>28</DaysSupply>
         <WrittenDate>
-          <Date>2019-11-20</Date>
+          <Date>2020-05-18</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-12-18</Date>
+          <Date>2020-06-15</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -131,10 +129,10 @@ Missing MMEs
         </Quantity>
         <DaysSupply>21</DaysSupply>
         <WrittenDate>
-          <Date>2020-03-06</Date>
+          <Date>2020-09-02</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-03-07</Date>
+          <Date>2020-09-03</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -206,10 +204,10 @@ Missing MMEs
         </Quantity>
         <DaysSupply>28</DaysSupply>
         <WrittenDate>
-          <Date>2019-09-27</Date>
+          <Date>2020-03-25</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-09-30</Date>
+          <Date>2020-03-28</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
