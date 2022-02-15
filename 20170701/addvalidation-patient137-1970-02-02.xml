@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <Message StructuresVersion="20170715" ECLVersion="20170715" DatatypesVersion="20170715" TransactionDomain="SCRIPT" TransactionVersion="20170715" TransportVersion="20170715">
   <Header>
     <To Qualifier="D">di01ar00</To>
@@ -52,10 +51,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2019-09-01</Date>
+          <Date>2020-02-28</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-09-01</Date>
+          <Date>2020-02-28</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -127,10 +126,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2019-10-01</Date>
+          <Date>2020-03-29</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-10-01</Date>
+          <Date>2020-03-29</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -202,10 +201,10 @@
         </Quantity>
         <DaysSupply>5</DaysSupply>
         <WrittenDate>
-          <Date>2019-10-31</Date>
+          <Date>2020-04-28</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-10-31</Date>
+          <Date>2020-04-28</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -277,10 +276,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2019-11-05</Date>
+          <Date>2020-05-03</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-11-05</Date>
+          <Date>2020-05-03</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -352,10 +351,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2019-11-10</Date>
+          <Date>2020-05-08</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-11-10</Date>
+          <Date>2020-05-08</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -427,10 +426,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2019-12-10</Date>
+          <Date>2020-06-07</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-12-10</Date>
+          <Date>2020-06-07</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>

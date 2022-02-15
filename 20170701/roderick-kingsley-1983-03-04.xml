@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" StructuresVersion="20170715" ECLVersion="20170715" DatatypesVersion="20170715" TransactionDomain="SCRIPT" TransactionVersion="20170715" TransportVersion="20170715">
   <Header>
     <To Qualifier="D">di01ar00</To>
@@ -52,10 +51,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2018-01-10</Date>
+          <Date>2018-07-09</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2018-4-15</Date>
+          <Date>2018-10-12</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -127,10 +126,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2018-12-06</Date>
+          <Date>2019-06-04</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2018-12-15</Date>
+          <Date>2019-06-13</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -202,10 +201,10 @@
         </Quantity>
         <DaysSupply>40</DaysSupply>
         <WrittenDate>
-          <Date>2021-08-14</Date>
+          <Date>2022-02-10</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-12-15</Date>
+          <Date>2022-06-13</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -271,7 +270,6 @@
     </RxHistoryResponse>
   </Body>
 </Message>
-
 <!--
 number of days dispensed is 0 for both opioids
   -->

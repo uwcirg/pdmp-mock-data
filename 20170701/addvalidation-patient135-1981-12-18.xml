@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <Message StructuresVersion="20170715" ECLVersion="20170715" DatatypesVersion="20170715" TransactionDomain="SCRIPT" TransactionVersion="20170715" TransportVersion="20170715">
   <Header>
     <To Qualifier="D">di01ar00</To>
@@ -52,10 +51,10 @@
         </Quantity>
         <DaysSupply>3</DaysSupply>
         <WrittenDate>
-          <Date>2019-09-01</Date>
+          <Date>2020-02-28</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-09-01</Date>
+          <Date>2020-02-28</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -127,10 +126,10 @@
         </Quantity>
         <DaysSupply>1</DaysSupply>
         <WrittenDate>
-          <Date>2019-09-04</Date>
+          <Date>2020-03-02</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-09-04</Date>
+          <Date>2020-03-02</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -202,10 +201,10 @@
         </Quantity>
         <DaysSupply>5</DaysSupply>
         <WrittenDate>
-          <Date>2019-09-05</Date>
+          <Date>2020-03-03</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-09-05</Date>
+          <Date>2020-03-03</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -277,10 +276,10 @@
         </Quantity>
         <DaysSupply>5</DaysSupply>
         <WrittenDate>
-          <Date>2019-09-10</Date>
+          <Date>2020-03-08</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-09-10</Date>
+          <Date>2020-03-08</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -352,10 +351,10 @@
         </Quantity>
         <DaysSupply>4</DaysSupply>
         <WrittenDate>
-          <Date>2019-09-15</Date>
+          <Date>2020-03-13</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-09-15</Date>
+          <Date>2020-03-13</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -411,7 +410,7 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>1 ML meperidine hydrochloride 75 MG/ML Prefilled Syringe [Demerol]Â </DrugDescription>
+        <DrugDescription>1 ML meperidine hydrochloride 75 MG/ML Prefilled Syringe [Demerol]&#194;&#160;</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>00409203311</Code>
@@ -427,10 +426,10 @@
         </Quantity>
         <DaysSupply>2</DaysSupply>
         <WrittenDate>
-          <Date>2019-09-19</Date>
+          <Date>2020-03-17</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-09-19</Date>
+          <Date>2020-03-17</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -502,10 +501,10 @@
         </Quantity>
         <DaysSupply>3</DaysSupply>
         <WrittenDate>
-          <Date>2019-09-21</Date>
+          <Date>2020-03-19</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-09-21</Date>
+          <Date>2020-03-19</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -561,7 +560,7 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>1 ML meperidine hydrochloride 50 MG/ML Prefilled Syringe [Demerol]Â </DrugDescription>
+        <DrugDescription>1 ML meperidine hydrochloride 50 MG/ML Prefilled Syringe [Demerol]&#194;&#160;</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>00409141801</Code>
@@ -577,10 +576,10 @@
         </Quantity>
         <DaysSupply>4</DaysSupply>
         <WrittenDate>
-          <Date>2019-09-24</Date>
+          <Date>2020-03-22</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-09-24</Date>
+          <Date>2020-03-22</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -652,10 +651,10 @@
         </Quantity>
         <DaysSupply>1</DaysSupply>
         <WrittenDate>
-          <Date>2019-09-28</Date>
+          <Date>2020-03-26</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-09-28</Date>
+          <Date>2020-03-26</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -711,7 +710,7 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>2 ML butorphanol tartrate 2 MG/ML InjectionÂ </DrugDescription>
+        <DrugDescription>2 ML butorphanol tartrate 2 MG/ML Injection&#194;&#160;</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>55390018402</Code>
@@ -727,10 +726,10 @@
         </Quantity>
         <DaysSupply>5</DaysSupply>
         <WrittenDate>
-          <Date>2019-09-29</Date>
+          <Date>2020-03-27</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-09-29</Date>
+          <Date>2020-03-27</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -786,7 +785,7 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>2 ML butorphanol tartrate 2 MG/ML InjectionÂ </DrugDescription>
+        <DrugDescription>2 ML butorphanol tartrate 2 MG/ML Injection&#194;&#160;</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>00409162602</Code>
@@ -802,10 +801,10 @@
         </Quantity>
         <DaysSupply>3</DaysSupply>
         <WrittenDate>
-          <Date>2019-10-04</Date>
+          <Date>2020-04-01</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-10-04</Date>
+          <Date>2020-04-01</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -877,10 +876,10 @@
         </Quantity>
         <DaysSupply>3</DaysSupply>
         <WrittenDate>
-          <Date>2019-10-07</Date>
+          <Date>2020-04-04</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-10-07</Date>
+          <Date>2020-04-04</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -936,7 +935,7 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>fentanyl 0.2 MG Buccal TabletÂ </DrugDescription>
+        <DrugDescription>fentanyl 0.2 MG Buccal Tablet&#194;&#160;</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>51862063528</Code>
@@ -952,10 +951,10 @@
         </Quantity>
         <DaysSupply>60</DaysSupply>
         <WrittenDate>
-          <Date>2019-10-10</Date>
+          <Date>2020-04-07</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-10-10</Date>
+          <Date>2020-04-07</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -1027,10 +1026,10 @@
         </Quantity>
         <DaysSupply>3</DaysSupply>
         <WrittenDate>
-          <Date>2019-12-09</Date>
+          <Date>2020-06-06</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-12-09</Date>
+          <Date>2020-06-06</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -1102,10 +1101,10 @@
         </Quantity>
         <DaysSupply>10</DaysSupply>
         <WrittenDate>
-          <Date>2019-12-12</Date>
+          <Date>2020-06-09</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-12-12</Date>
+          <Date>2020-06-09</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -1177,10 +1176,10 @@
         </Quantity>
         <DaysSupply>4</DaysSupply>
         <WrittenDate>
-          <Date>2019-12-22</Date>
+          <Date>2020-06-19</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-12-22</Date>
+          <Date>2020-06-19</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -1252,10 +1251,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2019-12-26</Date>
+          <Date>2020-06-23</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2019-12-26</Date>
+          <Date>2020-06-23</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -1327,10 +1326,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-01-25</Date>
+          <Date>2020-07-23</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-01-25</Date>
+          <Date>2020-07-23</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -1402,10 +1401,10 @@
         </Quantity>
         <DaysSupply>3</DaysSupply>
         <WrittenDate>
-          <Date>2020-02-24</Date>
+          <Date>2020-08-22</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-02-24</Date>
+          <Date>2020-08-22</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -1461,7 +1460,7 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>2 ML butorphanol tartrate 2 MG/ML InjectionÂ </DrugDescription>
+        <DrugDescription>2 ML butorphanol tartrate 2 MG/ML Injection&#194;&#160;</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>00409162642</Code>
@@ -1477,10 +1476,10 @@
         </Quantity>
         <DaysSupply>1</DaysSupply>
         <WrittenDate>
-          <Date>2020-02-27</Date>
+          <Date>2020-08-25</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-02-27</Date>
+          <Date>2020-08-25</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -1552,10 +1551,10 @@
         </Quantity>
         <DaysSupply>3</DaysSupply>
         <WrittenDate>
-          <Date>2020-02-28</Date>
+          <Date>2020-08-26</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-02-28</Date>
+          <Date>2020-08-26</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -1627,10 +1626,10 @@
         </Quantity>
         <DaysSupply>1</DaysSupply>
         <WrittenDate>
-          <Date>2020-03-02</Date>
+          <Date>2020-08-29</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-03-02</Date>
+          <Date>2020-08-29</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -1702,10 +1701,10 @@
         </Quantity>
         <DaysSupply>3</DaysSupply>
         <WrittenDate>
-          <Date>2020-03-03</Date>
+          <Date>2020-08-30</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-03-03</Date>
+          <Date>2020-08-30</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -1761,7 +1760,7 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>fentanyl 0.2 MG/ACTUAT Mucosal Spray [Subsys]Â </DrugDescription>
+        <DrugDescription>fentanyl 0.2 MG/ACTUAT Mucosal Spray [Subsys]&#194;&#160;</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>20482000210</Code>
@@ -1777,10 +1776,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-03-06</Date>
+          <Date>2020-09-02</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-03-06</Date>
+          <Date>2020-09-02</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -1852,10 +1851,10 @@
         </Quantity>
         <DaysSupply>4</DaysSupply>
         <WrittenDate>
-          <Date>2020-04-05</Date>
+          <Date>2020-10-02</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-04-05</Date>
+          <Date>2020-10-02</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -1927,10 +1926,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-04-09</Date>
+          <Date>2020-10-06</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-04-09</Date>
+          <Date>2020-10-06</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -1986,7 +1985,7 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>fentanyl 0.2 MG/ACTUAT Mucosal Spray [Subsys]Â </DrugDescription>
+        <DrugDescription>fentanyl 0.2 MG/ACTUAT Mucosal Spray [Subsys]&#194;&#160;</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>20482000201</Code>
@@ -2002,10 +2001,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-05-09</Date>
+          <Date>2020-11-05</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-05-09</Date>
+          <Date>2020-11-05</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -2077,10 +2076,10 @@
         </Quantity>
         <DaysSupply>5</DaysSupply>
         <WrittenDate>
-          <Date>2020-06-08</Date>
+          <Date>2020-12-05</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-06-08</Date>
+          <Date>2020-12-05</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -2152,10 +2151,10 @@
         </Quantity>
         <DaysSupply>1</DaysSupply>
         <WrittenDate>
-          <Date>2020-06-13</Date>
+          <Date>2020-12-10</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-06-13</Date>
+          <Date>2020-12-10</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -2227,10 +2226,10 @@
         </Quantity>
         <DaysSupply>3</DaysSupply>
         <WrittenDate>
-          <Date>2020-06-14</Date>
+          <Date>2020-12-11</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-06-14</Date>
+          <Date>2020-12-11</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -2302,10 +2301,10 @@
         </Quantity>
         <DaysSupply>5</DaysSupply>
         <WrittenDate>
-          <Date>2020-06-17</Date>
+          <Date>2020-12-14</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-06-17</Date>
+          <Date>2020-12-14</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -2361,7 +2360,7 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>fentanyl 0.6 MG Buccal TabletÂ </DrugDescription>
+        <DrugDescription>fentanyl 0.6 MG Buccal Tablet&#194;&#160;</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>51862063701</Code>
@@ -2377,10 +2376,10 @@
         </Quantity>
         <DaysSupply>60</DaysSupply>
         <WrittenDate>
-          <Date>2020-06-22</Date>
+          <Date>2020-12-19</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-06-22</Date>
+          <Date>2020-12-19</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -2452,10 +2451,10 @@
         </Quantity>
         <DaysSupply>3</DaysSupply>
         <WrittenDate>
-          <Date>2020-08-21</Date>
+          <Date>2021-02-17</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-08-21</Date>
+          <Date>2021-02-17</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -2527,10 +2526,10 @@
         </Quantity>
         <DaysSupply>2</DaysSupply>
         <WrittenDate>
-          <Date>2020-08-24</Date>
+          <Date>2021-02-20</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-08-24</Date>
+          <Date>2021-02-20</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -2602,10 +2601,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-08-26</Date>
+          <Date>2021-02-22</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-08-26</Date>
+          <Date>2021-02-22</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -2677,10 +2676,10 @@
         </Quantity>
         <DaysSupply>5</DaysSupply>
         <WrittenDate>
-          <Date>2020-09-25</Date>
+          <Date>2021-03-24</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-09-25</Date>
+          <Date>2021-03-24</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -2736,7 +2735,7 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>1.5 ML meperidine hydrochloride 50 MG/ML Injection [Demerol]Â </DrugDescription>
+        <DrugDescription>1.5 ML meperidine hydrochloride 50 MG/ML Injection [Demerol]&#194;&#160;</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>00409125401</Code>
@@ -2752,10 +2751,10 @@
         </Quantity>
         <DaysSupply>3</DaysSupply>
         <WrittenDate>
-          <Date>2020-09-30</Date>
+          <Date>2021-03-29</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-09-30</Date>
+          <Date>2021-03-29</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -2827,10 +2826,10 @@
         </Quantity>
         <DaysSupply>5</DaysSupply>
         <WrittenDate>
-          <Date>2020-10-03</Date>
+          <Date>2021-04-01</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-10-03</Date>
+          <Date>2021-04-01</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -2902,10 +2901,10 @@
         </Quantity>
         <DaysSupply>1</DaysSupply>
         <WrittenDate>
-          <Date>2020-10-08</Date>
+          <Date>2021-04-06</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-10-08</Date>
+          <Date>2021-04-06</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -2977,10 +2976,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-10-09</Date>
+          <Date>2021-04-07</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-10-09</Date>
+          <Date>2021-04-07</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -3052,10 +3051,10 @@
         </Quantity>
         <DaysSupply>2</DaysSupply>
         <WrittenDate>
-          <Date>2020-11-08</Date>
+          <Date>2021-05-07</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-11-08</Date>
+          <Date>2021-05-07</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -3127,10 +3126,10 @@
         </Quantity>
         <DaysSupply>4</DaysSupply>
         <WrittenDate>
-          <Date>2020-11-10</Date>
+          <Date>2021-05-09</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-11-10</Date>
+          <Date>2021-05-09</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -3202,10 +3201,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-11-14</Date>
+          <Date>2021-05-13</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-11-14</Date>
+          <Date>2021-05-13</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -3277,10 +3276,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-12-14</Date>
+          <Date>2021-06-12</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-12-14</Date>
+          <Date>2021-06-12</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -3352,10 +3351,10 @@
         </Quantity>
         <DaysSupply>3</DaysSupply>
         <WrittenDate>
-          <Date>2021-01-13</Date>
+          <Date>2021-07-12</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-01-13</Date>
+          <Date>2021-07-12</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -3427,10 +3426,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2021-01-16</Date>
+          <Date>2021-07-15</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-01-16</Date>
+          <Date>2021-07-15</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -3502,10 +3501,10 @@
         </Quantity>
         <DaysSupply>2</DaysSupply>
         <WrittenDate>
-          <Date>2021-02-15</Date>
+          <Date>2021-08-14</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-02-15</Date>
+          <Date>2021-08-14</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -3577,10 +3576,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2021-02-17</Date>
+          <Date>2021-08-16</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-02-17</Date>
+          <Date>2021-08-16</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -3652,10 +3651,10 @@
         </Quantity>
         <DaysSupply>1</DaysSupply>
         <WrittenDate>
-          <Date>2021-03-19</Date>
+          <Date>2021-09-15</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-03-19</Date>
+          <Date>2021-09-15</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -3727,10 +3726,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2021-03-20</Date>
+          <Date>2021-09-16</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-03-20</Date>
+          <Date>2021-09-16</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -3802,10 +3801,10 @@
         </Quantity>
         <DaysSupply>3</DaysSupply>
         <WrittenDate>
-          <Date>2021-04-19</Date>
+          <Date>2021-10-16</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-04-19</Date>
+          <Date>2021-10-16</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -3877,10 +3876,10 @@
         </Quantity>
         <DaysSupply>5</DaysSupply>
         <WrittenDate>
-          <Date>2021-04-22</Date>
+          <Date>2021-10-19</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-04-22</Date>
+          <Date>2021-10-19</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -3952,10 +3951,10 @@
         </Quantity>
         <DaysSupply>2</DaysSupply>
         <WrittenDate>
-          <Date>2021-04-27</Date>
+          <Date>2021-10-24</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-04-27</Date>
+          <Date>2021-10-24</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -4011,7 +4010,7 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>fentanyl 0.2 MG/ACTUAT Mucosal Spray [Subsys]Â </DrugDescription>
+        <DrugDescription>fentanyl 0.2 MG/ACTUAT Mucosal Spray [Subsys]&#194;&#160;</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>71500000230</Code>
@@ -4027,10 +4026,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2021-04-29</Date>
+          <Date>2021-10-26</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-04-29</Date>
+          <Date>2021-10-26</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -4102,10 +4101,10 @@
         </Quantity>
         <DaysSupply>3</DaysSupply>
         <WrittenDate>
-          <Date>2021-05-29</Date>
+          <Date>2021-11-25</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-05-29</Date>
+          <Date>2021-11-25</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -4161,7 +4160,7 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>fentanyl 0.2 MG Buccal TabletÂ </DrugDescription>
+        <DrugDescription>fentanyl 0.2 MG Buccal Tablet&#194;&#160;</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>51862063501</Code>
@@ -4177,10 +4176,10 @@
         </Quantity>
         <DaysSupply>15</DaysSupply>
         <WrittenDate>
-          <Date>2021-06-01</Date>
+          <Date>2021-11-28</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-06-01</Date>
+          <Date>2021-11-28</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -4236,7 +4235,7 @@
         </HistorySource>
       </MedicationDispensed>
       <MedicationDispensed>
-        <DrugDescription>fentanyl 0.6 MG Buccal TabletÂ </DrugDescription>
+        <DrugDescription>fentanyl 0.6 MG Buccal Tablet&#194;&#160;</DrugDescription>
         <DrugCoded>
           <ProductCode>
             <Code>51862063728</Code>
@@ -4252,10 +4251,10 @@
         </Quantity>
         <DaysSupply>15</DaysSupply>
         <WrittenDate>
-          <Date>2021-06-16</Date>
+          <Date>2021-12-13</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-06-16</Date>
+          <Date>2021-12-13</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -4327,10 +4326,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2021-07-01</Date>
+          <Date>2021-12-28</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-07-01</Date>
+          <Date>2021-12-28</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -4402,10 +4401,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2021-07-31</Date>
+          <Date>2022-01-27</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2021-07-31</Date>
+          <Date>2022-01-27</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
