@@ -7,7 +7,11 @@ import os
 
 def warp_file(fh, days):
     """Given open file handle, move all date values w/i forward by `days`"""
-    print(f"warping {fh.name} {days} days forward...")
+    if days < 0:
+        print(f"warping {fh.name} {-1 * days} days back...")
+    else:
+        print(f"warping {fh.name} {days} days forward...")
+
     tree = etree.parse(fh)
 
     def bump_date(dt):
