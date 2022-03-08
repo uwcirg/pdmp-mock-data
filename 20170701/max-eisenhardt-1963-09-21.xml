@@ -51,10 +51,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-07-08</Date>
+          <Date>2020-03-10</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-10-12</Date>
+          <Date>2020-06-14</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -126,10 +126,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2020-06-03</Date>
+          <Date>2020-02-04</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2020-06-12</Date>
+          <Date>2020-02-13</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
@@ -201,10 +201,10 @@
         </Quantity>
         <DaysSupply>30</DaysSupply>
         <WrittenDate>
-          <Date>2022-02-10</Date>
+          <Date>2021-10-13</Date>
         </WrittenDate>
         <LastFillDate>
-          <Date>2022-06-13</Date>
+          <Date>2022-02-13</Date>
         </LastFillDate>
         <Substitutions>0</Substitutions>
         <Note>04</Note>
