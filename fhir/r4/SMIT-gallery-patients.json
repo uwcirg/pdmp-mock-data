@@ -1,6 +1,6 @@
 {
   "resourceType": "Bundle",
-  "id": "pt-bundle",
+  "id": "cosri-SMIT-patient-bundle",
   "type": "transaction",
   "entry": [
     {
