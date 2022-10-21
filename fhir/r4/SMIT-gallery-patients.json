@@ -1,0 +1,79 @@
+{
+  "resourceType": "Bundle",
+  "id": "pt-bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "cosri-marcus-aurelius",
+        "identifier": [
+          {
+            "system": "https://github.com/uwcirg/script-fhir-facade",
+            "value": "found"
+          }
+        ],
+        "name": [
+          {
+            "family": "Aurelius",
+            "given": ["Marcus"]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1975-06-17"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/cosri-marcus-aurelius"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "cosri-charles-dickens",
+        "identifier": [
+          {
+            "system": "https://github.com/uwcirg/script-fhir-facade",
+            "value": "found"
+          }
+        ],
+        "name": [
+          {
+            "family": "Dickens",
+            "given": ["Charles"]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1977-01-12"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/cosri-charles-dickens"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "cosri-harry-osborn",
+        "identifier": [
+          {
+            "system": "https://github.com/uwcirg/script-fhir-facade",
+            "value": "found"
+          }
+        ],
+        "name": [
+          {
+            "family": "Osborn",
+            "given": ["Harry"]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1974-09-01"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/cosri-harry-osborn"
+      }
+    }
+  ]
+}
