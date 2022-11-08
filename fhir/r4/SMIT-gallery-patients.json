@@ -29,6 +29,27 @@
     },
     {
       "resource": {
+        "resourceType": "DocumentReference",
+        "id": "cosri-elizabeth-replacetherapy-agreement",
+        "type": {
+          "coding": [ {
+            "system": "https://loinc.org",
+            "code": "94136-9",
+            "display": "Controlled substance agreement"
+          } ]
+        },
+        "subject": {
+          "reference": "Patient/cosri-elizabeth-replacetherapy"
+        },
+        "date": "2021-11-11"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/cosri-elizabeth-replacetherapy-agreement"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "cosri-marcus-aurelius",
         "identifier": [
