@@ -291,6 +291,72 @@
         "method": "PUT",
         "url": "Patient/cosri-harry-osborn"
       }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "cosri-harry-osborn-screen-1",
+        "code": {
+          "coding": [ {
+            "system": "https://testdirectory.questdiagnostics.com/test",
+            "code": "39428",
+            "display": "Prescription Drug Monitoring,Pain Management"
+          } ],
+          "text": "Drug Monitoring, Panel 6 with Confirmation, Urine"
+        },
+        "subject": {
+          "reference": "Patient/cosri-harry-osborn"
+        },
+        "authoredOn": "2022-03-21"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ServiceRequest/cosri-harry-osborn-screen-1"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "cosri-harry-osborn-screen-2",
+        "code": {
+          "coding": [ {
+            "system": "https://testdirectory.questdiagnostics.com/test",
+            "code": "39428",
+            "display": "Prescription Drug Monitoring,Pain Management"
+          } ],
+          "text": "Drug Monitoring, Panel 6 with Confirmation, Urine"
+        },
+        "subject": {
+          "reference": "Patient/cosri-harry-osborn"
+        },
+        "authoredOn": "2020-10-09"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ServiceRequest/cosri-harry-osborn-screen-2"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "cosri-harry-osborn-screen-3",
+        "code": {
+          "coding": [ {
+            "system": "https://testdirectory.questdiagnostics.com/test",
+            "code": "39428",
+            "display": "Prescription Drug Monitoring,Pain Management"
+          } ],
+          "text": "Drug Monitoring, Panel 6 with Confirmation, Urine"
+        },
+        "subject": {
+          "reference": "Patient/cosri-harry-osborn"
+        },
+        "authoredOn": "2019-07-05"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ServiceRequest/cosri-harry-osborn-screen-3"
+      }
     }
   ]
 }
