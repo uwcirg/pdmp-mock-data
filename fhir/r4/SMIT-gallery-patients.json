@@ -50,6 +50,50 @@
     },
     {
       "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "cosri-elizabeth-replacetherapy-screen-1",
+        "code": {
+          "coding": [ {
+            "system": "https://testdirectory.questdiagnostics.com/test",
+            "code": "39428",
+            "display": "Prescription Drug Monitoring,Pain Management"
+          } ],
+          "text": "Drug Monitoring, Panel 6 with Confirmation, Urine"
+        },
+        "subject": {
+          "reference": "Patient/cosri-elizabeth-replacetherapy"
+        },
+        "authoredOn": "2020-10-09"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ServiceRequest/cosri-elizabeth-replacetherapy-screen-1"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "cosri-elizabeth-replacetherapy-screen-2",
+        "code": {
+          "coding": [ {
+            "system": "https://testdirectory.questdiagnostics.com/test",
+            "code": "39428",
+            "display": "Prescription Drug Monitoring,Pain Management"
+          } ],
+          "text": "Drug Monitoring, Panel 6 with Confirmation, Urine"
+        },
+        "subject": {
+          "reference": "Patient/cosri-elizabeth-replacetherapy"
+        },
+        "authoredOn": "2022-03-21"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ServiceRequest/cosri-elizabeth-replacetherapy-screen-2"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "cosri-marcus-aurelius",
         "identifier": [
