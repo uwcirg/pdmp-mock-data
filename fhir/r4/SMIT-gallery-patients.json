@@ -6,6 +6,30 @@
     {
       "resource": {
         "resourceType": "Patient",
+        "id": "cosri-elizabeth-replacetherapy",
+        "identifier": [
+          {
+            "system": "https://github.com/uwcirg/script-fhir-facade",
+            "value": "found"
+          }
+        ],
+        "name": [
+          {
+            "family": "Replacetherapy",
+            "given": ["Elizabeth"]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1981-04-03"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/cosri-elizabeth-replacetherapy"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
         "id": "cosri-marcus-aurelius",
         "identifier": [
           {
