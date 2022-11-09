@@ -29,6 +29,71 @@
     },
     {
       "resource": {
+        "resourceType": "DocumentReference",
+        "id": "cosri-elizabeth-replacetherapy-agreement",
+        "type": {
+          "coding": [ {
+            "system": "https://loinc.org",
+            "code": "94136-9",
+            "display": "Controlled substance agreement"
+          } ]
+        },
+        "subject": {
+          "reference": "Patient/cosri-elizabeth-replacetherapy"
+        },
+        "date": "2021-11-11"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/cosri-elizabeth-replacetherapy-agreement"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "cosri-elizabeth-replacetherapy-screen-1",
+        "code": {
+          "coding": [ {
+            "system": "https://testdirectory.questdiagnostics.com/test",
+            "code": "39428",
+            "display": "Prescription Drug Monitoring,Pain Management"
+          } ],
+          "text": "Drug Monitoring, Panel 6 with Confirmation, Urine"
+        },
+        "subject": {
+          "reference": "Patient/cosri-elizabeth-replacetherapy"
+        },
+        "authoredOn": "2020-10-09"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ServiceRequest/cosri-elizabeth-replacetherapy-screen-1"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "cosri-elizabeth-replacetherapy-screen-2",
+        "code": {
+          "coding": [ {
+            "system": "https://testdirectory.questdiagnostics.com/test",
+            "code": "39428",
+            "display": "Prescription Drug Monitoring,Pain Management"
+          } ],
+          "text": "Drug Monitoring, Panel 6 with Confirmation, Urine"
+        },
+        "subject": {
+          "reference": "Patient/cosri-elizabeth-replacetherapy"
+        },
+        "authoredOn": "2022-03-21"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ServiceRequest/cosri-elizabeth-replacetherapy-screen-2"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "cosri-marcus-aurelius",
         "identifier": [
@@ -49,6 +114,70 @@
       "request": {
         "method": "PUT",
         "url": "Patient/cosri-marcus-aurelius"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "cosri-marcus-aurelius-screen-1",
+        "code": {
+          "coding": [ {
+            "system": "https://testdirectory.questdiagnostics.com/test",
+            "code": "39428",
+            "display": "Prescription Drug Monitoring,Pain Management"
+          } ],
+          "text": "Drug Monitoring, Panel 6 with Confirmation, Urine"
+        },
+        "subject": {
+          "reference": "Patient/cosri-marcus-aurelius"
+        },
+        "authoredOn": "2021-11-02"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ServiceRequest/cosri-marcus-aurelius-screen-1"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "cosri-marcus-aurelius-agreement-1",
+        "type": {
+          "coding": [ {
+            "system": "https://loinc.org",
+            "code": "94136-9",
+            "display": "Controlled substance agreement"
+          } ]
+        },
+        "subject": {
+          "reference": "Patient/cosri-marcus-aurelius"
+        },
+        "date": "2022-09-29"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/cosri-marcus-aurelius-agreement-1"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "cosri-marcus-aurelius-agreement-2",
+        "type": {
+          "coding": [ {
+            "system": "https://loinc.org",
+            "code": "94136-9",
+            "display": "Controlled substance agreement"
+          } ]
+        },
+        "subject": {
+          "reference": "Patient/cosri-marcus-aurelius"
+        },
+        "date": "2021-11-11"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/cosri-marcus-aurelius-agreement-2"
       }
     },
     {
@@ -77,6 +206,70 @@
     },
     {
       "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "cosri-charles-dickens-screen-1",
+        "code": {
+          "coding": [ {
+            "system": "https://testdirectory.questdiagnostics.com/test",
+            "code": "39428",
+            "display": "Prescription Drug Monitoring,Pain Management"
+          } ],
+          "text": "Drug Monitoring, Panel 6 with Confirmation, Urine"
+        },
+        "subject": {
+          "reference": "Patient/cosri-charles-dickens"
+        },
+        "authoredOn": "2022-01-13"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ServiceRequest/cosri-charles-dickens-screen-1"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "cosri-charles-dickens-agreement-1",
+        "type": {
+          "coding": [ {
+            "system": "https://loinc.org",
+            "code": "94136-9",
+            "display": "Controlled substance agreement"
+          } ]
+        },
+        "subject": {
+          "reference": "Patient/cosri-charles-dickens"
+        },
+        "date": "2021-03-31"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/cosri-charles-dickens-agreement-1"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "cosri-charles-dickens-agreement-2",
+        "type": {
+          "coding": [ {
+            "system": "https://loinc.org",
+            "code": "94136-9",
+            "display": "Controlled substance agreement"
+          } ]
+        },
+        "subject": {
+          "reference": "Patient/cosri-charles-dickens"
+        },
+        "date": "2022-03-27"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "DocumentReference/cosri-charles-dickens-agreement-2"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "cosri-harry-osborn",
         "identifier": [
@@ -97,6 +290,72 @@
       "request": {
         "method": "PUT",
         "url": "Patient/cosri-harry-osborn"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "cosri-harry-osborn-screen-1",
+        "code": {
+          "coding": [ {
+            "system": "https://testdirectory.questdiagnostics.com/test",
+            "code": "39428",
+            "display": "Prescription Drug Monitoring,Pain Management"
+          } ],
+          "text": "Drug Monitoring, Panel 6 with Confirmation, Urine"
+        },
+        "subject": {
+          "reference": "Patient/cosri-harry-osborn"
+        },
+        "authoredOn": "2022-03-21"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ServiceRequest/cosri-harry-osborn-screen-1"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "cosri-harry-osborn-screen-2",
+        "code": {
+          "coding": [ {
+            "system": "https://testdirectory.questdiagnostics.com/test",
+            "code": "39428",
+            "display": "Prescription Drug Monitoring,Pain Management"
+          } ],
+          "text": "Drug Monitoring, Panel 6 with Confirmation, Urine"
+        },
+        "subject": {
+          "reference": "Patient/cosri-harry-osborn"
+        },
+        "authoredOn": "2020-10-09"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ServiceRequest/cosri-harry-osborn-screen-2"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "ServiceRequest",
+        "id": "cosri-harry-osborn-screen-3",
+        "code": {
+          "coding": [ {
+            "system": "https://testdirectory.questdiagnostics.com/test",
+            "code": "39428",
+            "display": "Prescription Drug Monitoring,Pain Management"
+          } ],
+          "text": "Drug Monitoring, Panel 6 with Confirmation, Urine"
+        },
+        "subject": {
+          "reference": "Patient/cosri-harry-osborn"
+        },
+        "authoredOn": "2019-07-05"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ServiceRequest/cosri-harry-osborn-screen-3"
       }
     }
   ]
