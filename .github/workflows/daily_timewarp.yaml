@@ -5,38 +5,38 @@ on:
     - cron: '0 0 * * *'  # Run daily at midnight UTC
   workflow_dispatch:     # Allows manual trigger as well
 
-jobs:
-  daily-task:
-    runs-on: ubuntu-latest
+  jobs:
+    daily-task:
+      runs-on: ubuntu-latest
 
-  steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        ref: cron-test-branch
-        persist-credentials: false  # prevents accidental overwrites
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: cron-test-branch
+          persist-credentials: false  # prevents accidental overwrites
 
-    - name: Setup python for timewarp script
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
+      - name: Setup python for timewarp script
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
 
-    - name: Install python dependencies
-      run: |
-        pip install -r requirements.txt
+      - name: Install python dependencies
+        run: |
+          pip install -r requirements.txt
 
-    - name: run timewarp script, push values out one day's time
-      run: python bin/timewarp.py --days=1
+      - name: run timewarp script, push values out one day's time
+        run: python bin/timewarp.py --days=1
 
-    - name: Commit and push changes
-      run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-        git add .
-        git commit -m "Automated daily update" || echo "No changes to commit"
-        git push origin main
+          git add .
+          git commit -m "Automated daily update" || echo "No changes to commit"
+          git push origin main
 
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Uses GitHub Actions token
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Uses GitHub Actions token
 
