@@ -1,9 +1,11 @@
+# continuous integration
+# daily job to timewarp mock data 1 day forward
+---
 name: Daily Timewarp
-
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'  # Run daily at midnight UTC
-  workflow_dispatch:     # Allows manual trigger as well
 
 jobs:
   daily-task:
