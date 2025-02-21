@@ -1,0 +1,48 @@
+# continuous integration
+# daily job to timewarp mock data 1 day forward
+---
+name: Daily Timewarp
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight UTC
+
+jobs:
+  daily-task:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: cron-test-branch
+          persist-credentials: false  # prevents accidental overwrites
+
+      - name: Setup python for timewarp script
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install python dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: run timewarp script, push values out one day's time
+        run: python bin/timewarp.py --days=1
+
+      - name: Commit and push changes
+        run: |
+          git status
+          git branch -vv
+          git diff
+          git diff --staged
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add .
+          git commit -m "Automated daily update" || echo "No changes to commit"
+          git push origin main
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Uses GitHub Actions token
+
