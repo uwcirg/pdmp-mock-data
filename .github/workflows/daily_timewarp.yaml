@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: cron-test-branch
+          ref: main
           persist-credentials: false  # prevents accidental overwrites
 
       - name: Setup python for timewarp script
@@ -40,7 +40,7 @@ jobs:
         run: |
           git add .
           git commit -m "Automated daily update" || echo "No changes to commit"
-          git push origin cron-test-branch
+          git push origin main
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Uses GitHub Actions token
